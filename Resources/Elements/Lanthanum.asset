@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Lanthanum
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Lanthanum
+  symbol: La
+  atomicNumber: 57
+  atomicWeight: 138.90547
+  category: lanthanide
+  protons: 57
+  neutrons: 82
+  electronShells: 020000000800000012000000120000000900000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 5d1
+  electronegativity: 1.1
+  atomicRadius: 195
+  ionizationEnergy: 5.58
+  phaseAtSTP: Solid
+  density: 6.162
+  meltingPoint: 1193
+  boilingPoint: 3737
+  discoveredBy: Carl Gustaf Mosander
+  description: Lanthanum is a soft, ductile, silvery-white metallic chemical element
+    with symbol La and atomic number 57. It tarnishes rapidly when exposed to air
+    and is soft enough to be cut with a knife. It gave its name to the lanthanide
+    series, a group of 15 similar elements between lanthanum and lutetium in the
+    periodic table:it is also sometimes considered the first element of the 6th-period
+    transition metals.

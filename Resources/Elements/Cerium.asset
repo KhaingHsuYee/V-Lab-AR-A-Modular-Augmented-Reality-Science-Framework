@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Cerium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Cerium
+  symbol: Ce
+  atomicNumber: 58
+  atomicWeight: 140.1161
+  category: lanthanide
+  protons: 58
+  neutrons: 82
+  electronShells: 020000000800000012000000130000000900000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 5d1 4f1
+  electronegativity: 1.12
+  atomicRadius: 181
+  ionizationEnergy: 5.54
+  phaseAtSTP: Solid
+  density: 6.77
+  meltingPoint: 1068
+  boilingPoint: 3716
+  discoveredBy: Martin Heinrich Klaproth
+  description: Cerium is a chemical element with symbol Ce and atomic number 58.
+    It is a soft, silvery, ductile metal which easily oxidizes in air. Cerium was
+    named after the dwarf planet Ceres (itself named after the Roman goddess of agriculture).

@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="instructions-root" style="position: absolute; width: 100%; height: 100%; picking-mode: ignore; display: none;">
+        
+        <ui:Button name="btn-show-instructions" text="?" style="position: absolute; top: 45px; right: 20px; width: 40px; height: 40px; border-radius: 20px; background-color: rgba(38, 51, 76, 0.95); color: white; -unity-font-style: bold; font-size: 18px; border-width: 2px; border-color: rgb(51, 204, 255);" />
+        
+        <ui:VisualElement name="instructions-overlay" style="position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.85); align-items: center; justify-content: center; display: none; picking-mode: position;">
+            
+            <ui:VisualElement style="width: 550px; background-color: rgba(20, 30, 45, 0.95); border-radius: 15px; padding: 25px; align-items: center; border-width: 2px; border-color: rgb(51, 204, 255);">
+                
+                <ui:Label text="Circuit Diagram &amp; Instructions" style="color: rgb(51, 204, 255); font-size: 20px; -unity-font-style: bold; margin-bottom: 20px;" />
+                
+                <ui:VisualElement name="diagram-image" style="width: 380px; height: 200px; -unity-background-scale-mode: scale-to-fit; margin-bottom: 20px;" />
+                
+                <!-- CORRECTED TEXT: NO AMMETER -->
+                <ui:Label text="1. Place the Power Supply and 3 Resistors.&#10;2. Wire Power Supply (+) to Resistor 1, then connect all 3 resistors in series.&#10;3. Complete the loop by wiring Resistor 3 back to Power Supply (-).&#10;4. Connect the Voltmeter in parallel across each resistor to measure its voltage drop." style="color: white; font-size: 14px; white-space: normal; margin-bottom: 25px;" />
+                
+                <ui:Button name="btn-close-instructions" text="Close Diagram" style="width: 150px; height: 40px; background-color: rgb(51, 153, 255); color: white; -unity-font-style: bold; font-size: 14px; border-radius: 8px;" />
+                
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

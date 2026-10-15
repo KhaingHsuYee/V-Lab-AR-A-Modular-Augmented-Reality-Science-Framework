@@ -1,0 +1,126 @@
+/* Main Dashboard Setup */
+.dashboard-wrapper {
+    width: 950px; 
+    height: 430px; 
+    background-color: rgba(18, 30, 48, 0.7); 
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: rgba(120, 180, 220, 0.5); 
+    overflow: hidden;
+}
+
+.sliding-container {
+    flex-direction: row;
+    width: 1900px; 
+    height: 100%;
+    transition-property: translate;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out-cubic;
+}
+
+.page-panel {
+    width: 950px;
+    height: 100%;
+    padding: 15px;
+}
+
+/* ==================================
+   TABLE GRID SYSTEM
+   ================================== */
+.table-container {
+    flex-grow: 1;
+    margin-bottom: 30px; 
+    border-width: 1px;
+    border-color: rgba(120, 180, 220, 0.3);
+    border-radius: 4px;
+}
+
+.table-row, .sub-row {
+    flex-direction: row;
+    border-bottom-width: 1px;
+    border-color: rgba(120, 180, 220, 0.3);
+}
+
+.v-container {
+    flex-direction: column;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+/* Precise Column Widths - NOW PERCENTAGES */
+.w-col-1 { width: 18%; }
+.w-col-2 { width: 15%; }
+.w-col-3 { width: 35%; }
+.w-col-4 { width: 32%; } 
+
+/* Cell Typography & Borders */
+.header-cell {
+    font-size: 16px;
+    -unity-font-style: bold;
+    color: rgb(210, 235, 255);
+    padding: 10px;
+    border-right-width: 1px;
+    border-color: rgba(120, 180, 220, 0.3);
+    -unity-text-align: middle-left;
+    background-color: rgba(255, 255, 255, 0.05); 
+    
+    /* ADDED WRAPPING RULES */
+    white-space: normal; 
+    flex-shrink: 1; 
+}
+
+.body-cell {
+    font-size: 15px;
+    color: rgb(230, 240, 250);
+    padding: 10px;
+    border-right-width: 1px;
+    border-color: rgba(120, 180, 220, 0.3);
+    -unity-text-align: middle-left;
+    
+    /* ADDED WRAPPING RULES */
+    white-space: normal; 
+    flex-shrink: 1; 
+}
+
+.center-text {
+    -unity-text-align: middle-center;
+}
+
+/* Border Overrides to keep the grid perfectly clean */
+.no-bottom-border { border-bottom-width: 0px; }
+.no-right-border { border-right-width: 0px; }
+
+/* ==================================
+   PAGE 2: REACTION DASHBOARD
+   ================================== */
+.header-title {
+    font-size: 28px;
+    -unity-font-style: bold;
+    color: rgb(150, 220, 255);
+    margin-bottom: 15px;
+}
+
+.body-text {
+    font-size: 20px;
+    color: white;
+    white-space: normal;
+    margin-bottom: 12px;
+}
+
+.equation-text {
+    font-size: 24px;
+    -unity-font-style: bold;
+    color: rgb(255, 220, 100);
+    margin-top: 15px;
+    white-space: normal; 
+}
+
+.swipe-hint {
+    position: absolute;
+    bottom: 12px; 
+    right: 20px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}

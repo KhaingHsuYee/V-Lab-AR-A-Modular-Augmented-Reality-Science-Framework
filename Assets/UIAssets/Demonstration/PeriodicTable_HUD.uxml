@@ -1,0 +1,38 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/Demonstration/PeriodicTable_HUD.uss?fileID=7433441132597879392&amp;guid=747543539596d80459aab47448956031&amp;type=3#PeriodicTable_HUD"/>
+    
+    <ui:VisualElement name="hud-container" class="hud-container" picking-mode="Ignore">
+        
+        <ui:VisualElement class="right-toolbar" picking-mode="Position">
+            <ui:Button name="btn-home" class="icon-btn" style="background-image: url(&quot;project://database/Assets/Space_Exploration_GUI_Kit/Picto_Icons/White/home-256.png?fileID=2800000&amp;guid=c0017e8c889fde94da2dc96ac8a2b133&amp;type=3#home-256&quot;);"/>
+            <ui:Button name="btn-learn" class="icon-btn" style="background-image: url(&quot;project://database/Assets/Assets/icon/experiment_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png?fileID=2800000&amp;guid=a5cef3531a4fcc244901b886803cda73&amp;type=3#experiment_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24&quot;); display: none;"/>
+            <ui:Button name="btn-atom" class="icon-btn" text="ATOM" style="-unity-font-style: bold; color: #93c5fd; background-color: transparent; border-width: 0;"/>
+            <ui:Button name="btn-reset" class="icon-btn" style="background-image: url(&quot;project://database/Assets/Assets/icon/reset_colors_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png?fileID=2800000&amp;guid=e45396ea669d5b54bb056e49be673754&amp;type=3#reset_colors_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24&quot;);"/>
+        </ui:VisualElement>
+        
+        <ui:VisualElement name="exit-popup-overlay" class="popup-overlay" style="display: none;">
+            <ui:VisualElement name="exit-popup-box" class="popup-box">
+                <ui:Label name="popup-title" text="Exit Scene?" class="popup-title"/>
+                <ui:Label name="popup-message" text="Are you sure you want to exit?" class="popup-message"/>
+                <ui:VisualElement class="popup-button-container">
+                    <ui:Button name="btn-cancel-exit" text="Cancel" class="popup-btn popup-btn-secondary"/>
+                    <ui:Button name="btn-confirm-exit" text="OK" class="popup-btn popup-btn-primary"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="bottom-element-menu" picking-mode="Position" style="display: none;">
+            <!-- NEW: Color Map Legend -->
+            <ui:VisualElement class="legend-container">
+                <ui:VisualElement class="legend-item"><ui:VisualElement class="legend-color" style="background-color: rgb(0, 204, 255);"/><ui:Label text="Nonmetals &amp; Gases" class="legend-text"/></ui:VisualElement>
+                <ui:VisualElement class="legend-item"><ui:VisualElement class="legend-color" style="background-color: rgb(255, 128, 51);"/><ui:Label text="Alkali Metals" class="legend-text"/></ui:VisualElement>
+                <ui:VisualElement class="legend-item"><ui:VisualElement class="legend-color" style="background-color: rgb(230, 204, 76);"/><ui:Label text="Transition Metals" class="legend-text"/></ui:VisualElement>
+                <ui:VisualElement class="legend-item"><ui:VisualElement class="legend-color" style="background-color: rgb(102, 230, 102);"/><ui:Label text="Metalloids" class="legend-text"/></ui:VisualElement>
+                <ui:VisualElement class="legend-item"><ui:VisualElement class="legend-color" style="background-color: rgb(204, 102, 230);"/><ui:Label text="Actinides &amp; Lanthanides" class="legend-text"/></ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:ScrollView name="element-scroll-view" mode="Horizontal" shows-vertical-scroll-indicator="false" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,60 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="DeviceInspectorStyle.uss" />
+
+    <ui:VisualElement name="inspector-panel" class="inspector-panel">
+        
+        <!-- HEADER (Title and Close Button) -->
+        <ui:VisualElement class="header-container">
+            <ui:Label text="AMMETER" name="device-title" class="title-text" />
+            <ui:Button text="X" name="btn-close-inspector" class="btn-close" />
+        </ui:VisualElement>
+
+        <!-- TAB NAVIGATION -->
+        <ui:VisualElement class="tab-container">
+            <ui:Button text="DATA" name="btn-tab-data" class="tab-button tab-active" />
+            <ui:Button text="WIRING" name="btn-tab-wiring" class="tab-button" />
+        </ui:VisualElement>
+
+        <!-- TAB CONTENT 1: DATA -->
+        <ui:VisualElement name="content-data" class="tab-content" style="display: flex;">
+            <ui:Label text="LIVE READING" class="section-label" />
+            <ui:Label text="Current: 0.00 A" name="device-reading" class="reading-text" />
+            
+            <ui:Slider label="VOLTAGE DIAL" name="voltage-slider" low-value="0" high-value="12" class="voltage-slider" style="display: none;" />
+        </ui:VisualElement>
+
+        <!-- TAB CONTENT 2: WIRING -->
+        <ui:VisualElement name="content-wiring" class="tab-content" style="display: none;">
+            
+            <ui:Label text="CREATE NEW CONNECTION" class="section-label" />
+            <ui:VisualElement class="dropdown-container">
+                
+                <!-- 1. Row for Local Port -->
+                <ui:VisualElement class="custom-dropdown-wrapper">
+                    <ui:Label text="Local Port:" class="dropdown-label" />
+                    <ui:Button name="btn-local-toggle" text="Select Port..." class="custom-dropdown-btn" />
+                </ui:VisualElement>
+
+                <!-- 2. Row for Target Port -->
+                <ui:VisualElement class="custom-dropdown-wrapper">
+                    <ui:Label text="Target Port:" class="dropdown-label" />
+                    <ui:Button name="btn-target-toggle" text="Select Target..." class="custom-dropdown-btn" />
+                </ui:VisualElement>
+
+                <!-- 3. Connect Button -->
+                <ui:Button text="CONNECT PORTS" name="btn-make-connection" class="btn-connect" />
+
+                <!-- 4. Floating Lists (Drawn LAST so they render ON TOP of the button) -->
+                <ui:ScrollView name="scroll-local-list" class="custom-dropdown-list local-list-pos" style="display: none;" />
+                <ui:ScrollView name="scroll-target-list" class="custom-dropdown-list target-list-pos" style="display: none;" />
+
+            </ui:VisualElement>
+
+            <!-- EXISTING CONNECTIONS LIST -->
+            <ui:Label text="ACTIVE CONNECTIONS" class="section-label" style="margin-top: 15px;" />
+            <ui:VisualElement name="connections-list" style="flex-direction: column;" />
+            
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

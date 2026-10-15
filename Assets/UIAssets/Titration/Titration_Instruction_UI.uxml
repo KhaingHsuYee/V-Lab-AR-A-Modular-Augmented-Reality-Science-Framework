@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Titration_Instruction_Style.uss" />
+    <ui:VisualElement class="dashboard-container">
+        <ui:Label text="TITRATION PROCEDURE" class="dashboard-title" />
+        <ui:VisualElement class="divider" />
+        
+        <ui:Label text="1. Ensure 10 mL of standard NaOH solution is in the flask." class="instruction-step" />
+        <ui:Label text="2. Add a few drops of methyl orange indicator." class="instruction-step" />
+        <ui:Label text="3. ROUGH TRIAL: Add HCl ~1 mL at a time until color changes from yellow to red." class="instruction-step" />
+        <ui:Label text="4. PRECISE TRIALS: Add HCl drop by drop carefully as it approaches the end point (orange)." class="instruction-step" />
+        <ui:Label text="5. Record the mean volume and calculate the final concentration." class="instruction-step" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,116 @@
+/* Main Floating Panel */
+.sidebar-panel {
+    width: 420px;
+    height: 85%;
+    background-color: rgba(20, 25, 35, 0.85); 
+    position: absolute;
+    left: 30px;
+    top: 7.5%;
+    border-radius: 16px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.15);
+    padding: 25px;
+}
+
+.main-title {
+    color: #93c5fd; 
+    font-size: 24px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+}
+
+.sub-title {
+    color: rgb(138, 138, 138);
+    font-size: 12px;
+    margin-bottom: 20px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+}
+
+/* Clickable Reagent Rows */
+.reagent-row-button {
+    height: 80px;
+    background-color: rgba(40, 45, 55, 0.5); 
+    border-radius: 12px;
+    margin-bottom: 12px;
+    padding: 10px 15px;
+    flex-direction: row;
+    align-items: center;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.05);
+    transition-duration: 0.15s;
+}
+
+.reagent-row-button:active {
+    scale: 0.97 0.97;
+    background-color: rgba(147, 197, 253, 0.15);
+    border-color: #93c5fd;
+}
+
+.reagent-row-button > * {
+    pointer-events: none;
+}
+
+.text-container {
+    flex-grow: 1;
+    margin-left: 15px;
+    justify-content: center;
+}
+
+.reagent-name {
+    color: rgb(255, 255, 255);
+    font-size: 15px; /* Slightly reduced to fit longer names like Potassium Ferrocyanide */
+    -unity-font-style: bold;
+}
+
+.reagent-formula {
+    color: rgb(160, 160, 160);
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+/* --- THUMBNAIL PLACEHOLDERS FOR YOUR ICONS --- */
+.reagent-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px; 
+    background-color: rgba(0, 0, 0, 0.3);
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+/* Assign your specific icons to these classes in the UI Builder */
+.hcl-thumb { }      
+.ki-thumb { }       
+.naoh-thumb { }     
+.k2cro4-thumb { }   
+.h2s-thumb { }      
+.fe-thumb { }       /* Use a nail/metal icon for this one! */
+.k4fecn6-thumb { }  
+.k3fecn6-thumb { }  
+.buffer-thumb { }   
+.nh42s-thumb { }    
+
+/* The "ADD" Button visual on the right */
+.action-badge {
+    color: #93c5fd;
+    font-size: 12px;
+    -unity-font-style: bold;
+    border-width: 1px;
+    border-color: rgba(147, 197, 253, 0.5);
+    background-color: rgba(147, 197, 253, 0.1);
+    border-radius: 12px;
+    padding: 6px 12px;
+    margin-left: 10px;
+}
+
+.active-selection {
+    border-width: 2px;
+    border-color: #93c5fd;
+    background-color: rgba(147, 197, 253, 0.2);
+}
+
+.active-selection .action-badge {
+    color: #1e293b;
+    background-color: #93c5fd;
+}

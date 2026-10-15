@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Rubidium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Rubidium
+  symbol: Rb
+  atomicNumber: 37
+  atomicWeight: 85.46783
+  category: alkali metal
+  protons: 37
+  neutrons: 48
+  electronShells: 0200000008000000120000000800000001000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1
+  electronegativity: 0.82
+  atomicRadius: 248
+  ionizationEnergy: 4.18
+  phaseAtSTP: Solid
+  density: 1.532
+  meltingPoint: 312.45
+  boilingPoint: 961
+  discoveredBy: Robert Bunsen
+  description: Rubidium is a chemical element with symbol Rb and atomic number 37.
+    Rubidium is a soft, silvery-white metallic element of the alkali metal group,
+    with an atomic mass of 85.4678. Elemental rubidium is highly reactive, with properties
+    similar to those of other alkali metals, such as very rapid oxidation in air.

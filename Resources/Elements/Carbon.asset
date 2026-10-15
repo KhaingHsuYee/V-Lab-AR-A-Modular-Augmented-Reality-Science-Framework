@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Carbon
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Carbon
+  symbol: C
+  atomicNumber: 6
+  atomicWeight: 12.011
+  category: polyatomic nonmetal
+  protons: 6
+  neutrons: 6
+  electronShells: 0200000004000000
+  electronConfiguration: 1s2 2s2 2p2
+  electronegativity: 2.55
+  atomicRadius: 70
+  ionizationEnergy: 11.26
+  phaseAtSTP: Solid
+  density: 1.821
+  meltingPoint: 3915
+  boilingPoint: 3915
+  discoveredBy: Ancient Egypt
+  description: "Carbon (from Latin:carbo \"coal\") is a chemical element with symbol
+    C and atomic number 6. On the periodic table, it is the first (row 2) of six
+    elements in column (group) 14, which have in common the composition of their
+    outer electron shell. It is nonmetallic and tetravalent\u2014making four electrons
+    available to form covalent chemical bonds."

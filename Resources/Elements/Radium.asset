@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Radium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Radium
+  symbol: Ra
+  atomicNumber: 88
+  atomicWeight: 226
+  category: alkaline earth metal
+  protons: 88
+  neutrons: 138
+  electronShells: 02000000080000001200000020000000120000000800000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10
+    6p6 7s2
+  electronegativity: 0.9
+  atomicRadius: 215
+  ionizationEnergy: 5.28
+  phaseAtSTP: Solid
+  density: 5.5
+  meltingPoint: 1233
+  boilingPoint: 2010
+  discoveredBy: Pierre Curie
+  description: Radium is a chemical element with symbol Ra and atomic number 88.
+    It is the sixth element in group 2 of the periodic table, also known as the alkaline
+    earth metals. Pure radium is almost colorless, but it readily combines with nitrogen
+    (rather than oxygen) on exposure to air, forming a black surface layer of radium
+    nitride (Ra3N2).

@@ -1,0 +1,57 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="TitrationResults_Style.uss" />
+    
+    <!-- FIX: Removed style="display: none;" so you can see it in UI Builder -->
+    <ui:VisualElement name="results-overlay" class="results-overlay">
+        <ui:VisualElement name="results-box" class="results-box">
+            <ui:Label text="Titration Lab Results" class="results-title"/>
+            <ui:Label text="Enter the volumes from your 3 trials below." class="results-message"/>
+            
+            <ui:VisualElement class="input-row">
+                <ui:Label text="Trial 1 (Rough) mL:" class="input-label"/>
+                <ui:TextField name="input-trial-1" class="input-field"/>
+            </ui:VisualElement>
+            
+            <ui:VisualElement class="input-row">
+                <ui:Label text="Trial 2 (Precise) mL:" class="input-label"/>
+                <ui:TextField name="input-trial-2" class="input-field"/>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="input-row">
+                <ui:Label text="Trial 3 (Precise) mL:" class="input-label"/>
+                <ui:TextField name="input-trial-3" class="input-field"/>
+            </ui:VisualElement>
+
+            <ui:Button name="btn-calc-mean" text="Calculate Mean Volume" class="action-btn"/>
+            <ui:Label name="mean-result-text" text="Mean Volume: -- mL" class="highlight-text"/>
+
+            <ui:VisualElement class="divider"/>
+
+            <ui:Label text="Using M1V1 = M2V2, calculate the Unknown Acid Concentration (M):" class="results-message"/>
+            
+            <ui:VisualElement class="input-row">
+                <ui:Label text="Final Concentration (M):" class="input-label"/>
+                <ui:TextField name="input-concentration" class="input-field"/>
+            </ui:VisualElement>
+
+            <ui:Label name="feedback-text" text="" class="feedback-text"/>
+
+            <ui:VisualElement class="button-container">
+                <ui:Button name="btn-close-results" text="Close" class="popup-btn popup-btn-secondary"/>
+                <ui:Button name="btn-submit-results" text="Submit" class="popup-btn popup-btn-primary"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <!-- NEW: Success Popup Overlay -->
+    <ui:VisualElement name="success-overlay" class="results-overlay" style="display: none;">
+        <ui:VisualElement name="success-box" class="results-box">
+            <ui:Label text="Experiment Complete!" class="results-title"/>
+            <ui:Label text="Congratulations! Your calculations are perfectly accurate." class="results-message"/>
+            
+            <ui:VisualElement class="button-container">
+                <ui:Button name="btn-stay-success" text="Stay in Lab" class="popup-btn popup-btn-secondary"/>
+                <ui:Button name="btn-exit-success" text="Exit" class="popup-btn popup-btn-primary"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

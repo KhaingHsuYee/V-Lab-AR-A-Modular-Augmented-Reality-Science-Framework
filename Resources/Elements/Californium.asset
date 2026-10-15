@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Californium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Californium
+  symbol: Cf
+  atomicNumber: 98
+  atomicWeight: 251
+  category: actinide
+  protons: 98
+  neutrons: 153
+  electronShells: 020000000800000012000000200000001c0000000800000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10
+    6p6 7s2 5f10
+  electronegativity: 1.3
+  atomicRadius: 295
+  ionizationEnergy: 6.28
+  phaseAtSTP: Solid
+  density: 15.1
+  meltingPoint: 1173
+  boilingPoint: 1743
+  discoveredBy: Lawrence Berkeley National Laboratory
+  description: Californium is a radioactive metallic chemical element with symbol
+    Cf and atomic number 98. The element was first made in 1950 at the University
+    of California Radiation Laboratory in Berkeley, by bombarding curium with alpha
+    particles (helium-4 ions). It is an actinide element, the sixth transuranium
+    element to be synthesized, and has the second-highest atomic mass of all the
+    elements that have been produced in amounts large enough to see with the unaided
+    eye (after einsteinium).

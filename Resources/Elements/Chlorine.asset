@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Chlorine
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Chlorine
+  symbol: Cl
+  atomicNumber: 17
+  atomicWeight: 35.45
+  category: diatomic nonmetal
+  protons: 17
+  neutrons: 18
+  electronShells: 020000000800000007000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p5
+  electronegativity: 3.16
+  atomicRadius: 100
+  ionizationEnergy: 12.97
+  phaseAtSTP: Gas
+  density: 0.0032
+  meltingPoint: 171.6
+  boilingPoint: 239.11
+  discoveredBy: Carl Wilhelm Scheele
+  description: Chlorine is a chemical element with symbol Cl and atomic number 17.
+    It also has a relative atomic mass of 35.5. Chlorine is in the halogen group
+    (17) and is the second lightest halogen following fluorine.

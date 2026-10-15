@@ -1,0 +1,36 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="DashboardStyle_solar.uss" />
+    
+    <ui:VisualElement class="dashboard-container">
+        <!-- Header -->
+        <ui:VisualElement class="header-section">
+            <ui:Label name="txt-planet-name" text="Earth" class="title-text" />
+            <ui:Label name="txt-planet-type" text="Terrestrial Planet" class="subtitle-text" />
+        </ui:VisualElement>
+
+        <!-- Physics Data Grid -->
+        <ui:VisualElement class="data-grid">
+            
+            <ui:VisualElement class="data-row">
+                <ui:Label text="Surface Gravity:" class="data-label" />
+                <ui:Label name="txt-gravity" text="9.8 m/s²" class="data-value" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="data-row">
+                <ui:Label text="Mass:" class="data-label" />
+                <ui:Label name="txt-mass" text="5.97 x 10²⁴ kg" class="data-value" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="data-row">
+                <ui:Label text="Escape Velocity:" class="data-label" />
+                <ui:Label name="txt-escape" text="11.2 km/s" class="data-value" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="data-row">
+                <ui:Label text="Orbital Velocity:" class="data-label" />
+                <ui:Label name="txt-orbit" text="29.8 km/s" class="data-value" />
+            </ui:VisualElement>
+
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Bromine
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Bromine
+  symbol: Br
+  atomicNumber: 35
+  atomicWeight: 79.904
+  category: diatomic nonmetal
+  protons: 35
+  neutrons: 45
+  electronShells: 02000000080000001200000007000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p5
+  electronegativity: 2.96
+  atomicRadius: 120
+  ionizationEnergy: 11.81
+  phaseAtSTP: Liquid
+  density: 3.1028
+  meltingPoint: 265.8
+  boilingPoint: 332
+  discoveredBy: "Antoine J\xE9r\xF4me Balard"
+  description: "Bromine (from Ancient Greek:\u03B2\u03C1\u1FF6\u03BC\u03BF\u03C2,
+    br\xF3mos, meaning \"stench\") is a chemical element with symbol Br, and atomic
+    number 35. It is a halogen. The element was isolated independently by two chemists,
+    Carl Jacob L\xF6wig and Antoine Jerome Balard, in 1825\u20131826."

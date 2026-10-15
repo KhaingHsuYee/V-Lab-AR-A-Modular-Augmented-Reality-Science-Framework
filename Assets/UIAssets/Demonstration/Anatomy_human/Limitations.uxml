@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/Demonstration/Anatomy_human/LimitationsStyles.uss?fileID=7433441132597879392&amp;guid=5896a7b1ec57f6041a666d23eec5c716&amp;type=3#LimitationsStyles"/>
+    <ui:VisualElement class="main-container">
+        
+        <ui:Button name="btn-back" text="←" class="back-btn hidden-start-top"/>
+        <ui:VisualElement class="glass-card layout-vertical hidden-start-bottom">
+            <ui:VisualElement class="header-container">
+                <ui:Label name="page-title" text="SYSTEM LIMITATIONS" class="brand-title"/>
+                <ui:Label text="Please review the following hardware and environmental constraints for optimal performance." class="about-desc text-center"/>
+            </ui:VisualElement>
+            <ui:VisualElement class="warning-row">
+                <ui:VisualElement class="warning-box border-cyan">
+                    <ui:Label text="🔋" class="warning-icon"/>
+                    <ui:Label text="Hardware Demands" class="warning-header"/>
+                    <ui:Label text="Requires ARCore. Real-time fluid rendering and particle systems are resource-intensive. Older devices may experience rapid battery drain and thermal throttling." class="warning-text"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="warning-box border-purple">
+                    <ui:Label text="💡" class="warning-icon"/>
+                    <ui:Label text="Environment" class="warning-header"/>
+                    <ui:Label text="Markerless tracking relies on optical analysis. Poor lighting, highly reflective tables, or featureless surfaces will cause tracking instability and 3D model drift." class="warning-text"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="warning-box border-pink">
+                    <ui:Label text="🧪" class="warning-icon"/>
+                    <ui:Label text="Experiment Scope" class="warning-header"/>
+                    <ui:Label text="Reactions are restricted to the programmed library of reagents. Open-ended, sandbox-style chemical mixing outside the established curriculum is not supported." class="warning-text"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

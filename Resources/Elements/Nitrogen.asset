@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Nitrogen
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Nitrogen
+  symbol: N
+  atomicNumber: 7
+  atomicWeight: 14.007
+  category: diatomic nonmetal
+  protons: 7
+  neutrons: 7
+  electronShells: 0200000005000000
+  electronConfiguration: 1s2 2s2 2p3
+  electronegativity: 3.04
+  atomicRadius: 65
+  ionizationEnergy: 14.53
+  phaseAtSTP: Gas
+  density: 0.001251
+  meltingPoint: 63.15
+  boilingPoint: 77.355
+  discoveredBy: Daniel Rutherford
+  description: Nitrogen is a chemical element with symbol N and atomic number 7.
+    It is the lightest pnictogen and at room temperature, it is a transparent, odorless
+    diatomic gas. Nitrogen is a common element in the universe, estimated at about
+    seventh in total abundance in the Milky Way and the Solar System.

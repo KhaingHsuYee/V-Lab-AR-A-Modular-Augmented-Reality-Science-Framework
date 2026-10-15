@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    
+    <!-- Root Container: Picking mode is set to ignore so it doesn't block AR taps when hidden -->
+    <ui:VisualElement name="instructions-root" style="position: absolute; width: 100%; height: 100%; picking-mode: ignore; display: none;">
+        
+        <!-- Floating Button -->
+        <ui:Button name="btn-show-instructions" text="?" style="position: absolute; top: 45px; right: 20px; width: 40px; height: 40px; border-radius: 20px; background-color: rgba(38, 51, 76, 0.95); color: white; -unity-font-style: bold; font-size: 18px; border-width: 2px; border-color: rgb(51, 204, 255);" />
+        
+        <!-- Fullscreen Dark Overlay -->
+        <ui:VisualElement name="instructions-overlay" style="position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.85); align-items: center; justify-content: center; display: none; picking-mode: position;">
+            
+            <!-- Information Card -->
+            <ui:VisualElement style="width: 550px; background-color: rgba(20, 30, 45, 0.95); border-radius: 15px; padding: 25px; align-items: center; border-width: 2px; border-color: rgb(51, 204, 255);">
+                
+                <ui:Label text="Circuit Diagram &amp; Instructions" style="color: rgb(51, 204, 255); font-size: 20px; -unity-font-style: bold; margin-bottom: 20px;" />
+                
+                <!-- Image Container -->
+                <ui:VisualElement name="diagram-image" style="width: 380px; height: 200px; -unity-background-scale-mode: scale-to-fit; margin-bottom: 20px;" />
+                
+                <!-- Text Instructions -->
+                <ui:Label text="1. Place Power Supply, Ammeter, Resistor, and Voltmeter.&#10;2. Wire Power Supply (+) to Ammeter (+), then Ammeter (-) to Resistor.&#10;3. Complete the loop from Resistor back to Power Supply (-).&#10;4. Connect Voltmeter in parallel across Resistor (Red to +, Black to -)." style="color: white; font-size: 14px; white-space: normal; margin-bottom: 25px;" />
+                
+                <ui:Button name="btn-close-instructions" text="Close Diagram" style="width: 150px; height: 40px; background-color: rgb(51, 153, 255); color: white; -unity-font-style: bold; font-size: 14px; border-radius: 8px;" />
+                
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

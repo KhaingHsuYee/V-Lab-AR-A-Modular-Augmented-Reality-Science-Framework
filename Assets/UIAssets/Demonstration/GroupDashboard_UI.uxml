@@ -1,0 +1,90 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="GroupDashboard_Style.uss" />
+
+    <ui:VisualElement class="dashboard-root">
+        <ui:VisualElement class="swipe-mask">
+            <ui:VisualElement name="sliding-container" class="sliding-container">
+                
+                <!-- PAGE 0: Legend -->
+                <ui:VisualElement class="page">
+                    <ui:Label text="Periodic Table Legend" class="page-title" style="border-bottom-color: white;" />
+                    <ui:VisualElement class="legend-row"><ui:VisualElement class="color-box bg-alkali"/><ui:Label text="Alkali Metals" class="body-text"/></ui:VisualElement>
+                    <ui:VisualElement class="legend-row"><ui:VisualElement class="color-box bg-transition"/><ui:Label text="Transition Metals" class="body-text"/></ui:VisualElement>
+                    <ui:VisualElement class="legend-row"><ui:VisualElement class="color-box bg-halogen"/><ui:Label text="Halogens" class="body-text"/></ui:VisualElement>
+                    <ui:VisualElement class="legend-row"><ui:VisualElement class="color-box bg-noble"/><ui:Label text="Noble Gases" class="body-text"/></ui:VisualElement>
+                    <ui:VisualElement class="legend-row"><ui:VisualElement class="color-box bg-lanthanide"/><ui:Label text="Lanthanides" class="body-text"/></ui:VisualElement>
+                    <ui:VisualElement class="legend-row"><ui:VisualElement class="color-box bg-actinide"/><ui:Label text="Actinides" class="body-text"/></ui:VisualElement>
+                    <ui:VisualElement class="legend-row"><ui:VisualElement class="color-box bg-nonmetal"/><ui:Label text="Nonmetals" class="body-text"/></ui:VisualElement>
+                </ui:VisualElement>
+
+                <!-- PAGE 1: Alkali Metals -->
+                <ui:VisualElement class="page">
+                    <ui:Label text="Alkali Metals" class="page-title bg-alkali" />
+                    <ui:Label text="Key Characteristics" class="section-header" />
+                    <ui:Label text="Highly reactive metals that are never found in nature in their pure form due to their eagerness to lose their outermost electron. They are remarkably soft, easily cut with a knife, and have relatively low melting points. When exposed to water, they react violently and exothermically, producing hydrogen gas and strong alkaline hydroxides." class="body-text" />
+                    <ui:Label text="Examples" class="section-header" />
+                    <ui:Label text="Lithium (Li), Sodium (Na), Potassium (K)" class="body-text" />
+                </ui:VisualElement>
+
+                <!-- PAGE 2: Transition Metals -->
+                <ui:VisualElement class="page">
+                    <ui:Label text="Transition Metals" class="page-title bg-transition" />
+                    <ui:Label text="Key Characteristics" class="section-header" />
+                    <ui:Label text="Hard, tough, and dense metals known for their high melting and boiling points. They are excellent conductors of both heat and electricity, making them vital for industrial applications. Because of their complex electron configurations, they can adopt multiple oxidation states, allowing them to form a wide variety of beautifully colored chemical compounds and act as crucial catalysts." class="body-text" />
+                    <ui:Label text="Examples" class="section-header" />
+                    <ui:Label text="Iron (Fe), Copper (Cu), Gold (Au)" class="body-text" />
+                </ui:VisualElement>
+
+                <!-- PAGE 3: Halogens -->
+                <ui:VisualElement class="page">
+                    <ui:Label text="Halogens" class="page-title bg-halogen" />
+                    <ui:Label text="Key Characteristics" class="section-header" />
+                    <ui:Label text="The most reactive group of nonmetals, characterized by their strong tendency to gain a single electron to achieve a stable, full outer shell. This makes them form salts effortlessly when reacting with metals. Uniquely, the halogen family contains elements in all three physical states at standard room temperature: solid (iodine), liquid (bromine), and gas (fluorine and chlorine)." class="body-text" />
+                    <ui:Label text="Examples" class="section-header" />
+                    <ui:Label text="Fluorine (F), Chlorine (Cl), Iodine (I)" class="body-text" />
+                </ui:VisualElement>
+
+                <!-- PAGE 4: Noble Gases -->
+                <ui:VisualElement class="page">
+                    <ui:Label text="Noble Gases" class="page-title bg-noble" />
+                    <ui:Label text="Key Characteristics" class="section-header" />
+                    <ui:Label text="Colorless, odorless, and tasteless gases that are famous for being extremely unreactive, or inert. This chemical stability comes from having a completely full outer shell of valence electrons. Because they do not need to share or transfer electrons, they rarely bond with other elements under standard conditions, existing naturally as single free atoms rather than molecules." class="body-text" />
+                    <ui:Label text="Examples" class="section-header" />
+                    <ui:Label text="Helium (He), Neon (Ne), Argon (Ar)" class="body-text" />
+                </ui:VisualElement>
+
+                <!-- PAGE 5: Lanthanides -->
+                <ui:VisualElement class="page">
+                    <ui:Label text="Lanthanides" class="page-title bg-lanthanide" />
+                    <ui:Label text="Key Characteristics" class="section-header" />
+                    <ui:Label text="Often referred to as 'Rare Earth Elements,' these are soft, silvery-white metals that easily tarnish when exposed to oxygen. Despite the 'rare' name, they are relatively abundant in the Earth's crust but difficult to mine and separate. Their unique magnetic and optical properties make them absolutely essential for manufacturing high-strength permanent magnets, advanced lasers, and modern electronics." class="body-text" />
+                    <ui:Label text="Examples" class="section-header" />
+                    <ui:Label text="Lanthanum (La), Neodymium (Nd), Erbium (Er)" class="body-text" />
+                </ui:VisualElement>
+
+                <!-- PAGE 6: Actinides -->
+                <ui:VisualElement class="page">
+                    <ui:Label text="Actinides" class="page-title bg-actinide" />
+                    <ui:Label text="Key Characteristics" class="section-header" />
+                    <ui:Label text="A fascinating series of heavy, dense, and highly radioactive metals. Because of their nuclear instability, they continuously decay, releasing energy. Only the first few lighter actinides (such as Uranium and Thorium) occur naturally in the Earth's crust in significant amounts; the heavier ones are entirely synthetic, created only in advanced particle accelerators or nuclear reactors." class="body-text" />
+                    <ui:Label text="Examples" class="section-header" />
+                    <ui:Label text="Uranium (U), Plutonium (Pu), Americium (Am)" class="body-text" />
+                </ui:VisualElement>
+
+                <!-- PAGE 7: Nonmetals -->
+                <ui:VisualElement class="page">
+                    <ui:Label text="Nonmetals" class="page-title bg-nonmetal" />
+                    <ui:Label text="Key Characteristics" class="section-header" />
+                    <ui:Label text="A diverse group of elements that lack traditional metallic properties. When in solid form, they are brittle rather than malleable, and they are generally poor conductors of both heat and electricity. They typically possess lower melting and boiling points than metals. Most importantly, this group includes the fundamental chemical building blocks necessary to sustain all known biological life." class="body-text" />
+                    <ui:Label text="Examples" class="section-header" />
+                    <ui:Label text="Carbon (C), Oxygen (O), Nitrogen (N)" class="body-text" />
+                </ui:VisualElement>
+
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- Updated Hint Text -->
+        <ui:Label text="Tap to play/stop audio • Swipe to explore" class="swipe-hint" />
+
+    </ui:VisualElement>
+</ui:UXML>

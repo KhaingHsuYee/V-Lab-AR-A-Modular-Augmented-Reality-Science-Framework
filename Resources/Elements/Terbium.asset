@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Terbium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Terbium
+  symbol: Tb
+  atomicNumber: 65
+  atomicWeight: 158.92535
+  category: lanthanide
+  protons: 65
+  neutrons: 94
+  electronShells: 0200000008000000120000001b0000000800000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f9
+  electronegativity: 1.1
+  atomicRadius: 177
+  ionizationEnergy: 5.86
+  phaseAtSTP: Solid
+  density: 8.23
+  meltingPoint: 1629
+  boilingPoint: 3396
+  discoveredBy: Carl Gustaf Mosander
+  description: Terbium is a chemical element with symbol Tb and atomic number 65.
+    It is a silvery-white rare earth metal that is malleable, ductile and soft enough
+    to be cut with a knife. Terbium is never found in nature as a free element, but
+    it is contained in many minerals, including cerite, gadolinite, monazite, xenotime
+    and euxenite.

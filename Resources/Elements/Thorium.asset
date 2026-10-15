@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Thorium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Thorium
+  symbol: Th
+  atomicNumber: 90
+  atomicWeight: 232.03773
+  category: actinide
+  protons: 90
+  neutrons: 142
+  electronShells: 02000000080000001200000020000000120000000a00000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10
+    6p6 7s2 6d2
+  electronegativity: 1.3
+  atomicRadius: 179
+  ionizationEnergy: 6.08
+  phaseAtSTP: Solid
+  density: 11.724
+  meltingPoint: 2023
+  boilingPoint: 5061
+  discoveredBy: "J\xF6ns Jakob Berzelius"
+  description: "Thorium is a chemical element with symbol Th and atomic number 90.
+    A radioactive actinide metal, thorium is one of only two significantly radioactive
+    elements that still occur naturally in large quantities as a primordial element
+    (the other being uranium). It was discovered in 1828 by the Norwegian Reverend
+    and amateur mineralogist Morten Thrane Esmark and identified by the Swedish chemist
+    J\xF6ns Jakob Berzelius, who named it after Thor, the Norse god of thunder."

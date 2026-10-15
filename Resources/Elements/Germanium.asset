@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Germanium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Germanium
+  symbol: Ge
+  atomicNumber: 32
+  atomicWeight: 72.6308
+  category: metalloid
+  protons: 32
+  neutrons: 41
+  electronShells: 02000000080000001200000004000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p2
+  electronegativity: 2.01
+  atomicRadius: 122
+  ionizationEnergy: 7.9
+  phaseAtSTP: Solid
+  density: 5.323
+  meltingPoint: 1211.4
+  boilingPoint: 3106
+  discoveredBy: Clemens Winkler
+  description: Germanium is a chemical element with symbol Ge and atomic number 32.
+    It is a lustrous, hard, grayish-white metalloid in the carbon group, chemically
+    similar to its group neighbors tin and silicon. Purified germanium is a semiconductor,
+    with an appearance most similar to elemental silicon.

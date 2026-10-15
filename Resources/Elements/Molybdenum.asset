@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Molybdenum
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Molybdenum
+  symbol: Mo
+  atomicNumber: 42
+  atomicWeight: 95.951
+  category: transition metal
+  protons: 42
+  neutrons: 54
+  electronShells: 0200000008000000120000000d00000001000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d5
+  electronegativity: 2.16
+  atomicRadius: 139
+  ionizationEnergy: 7.09
+  phaseAtSTP: Solid
+  density: 10.28
+  meltingPoint: 2896
+  boilingPoint: 4912
+  discoveredBy: Carl Wilhelm Scheele
+  description: "Molybdenum is a chemical element with symbol Mo and atomic number
+    42. The name is from Neo-Latin molybdaenum, from Ancient Greek \u039C\u03CC\u03BB\u03C5\u03B2\u03B4\u03BF\u03C2
+    molybdos, meaning lead, since its ores were confused with lead ores. Molybdenum
+    minerals have been known throughout history, but the element was discovered (in
+    the sense of differentiating it as a new entity from the mineral salts of other
+    metals) in 1778 by Carl Wilhelm Scheele."

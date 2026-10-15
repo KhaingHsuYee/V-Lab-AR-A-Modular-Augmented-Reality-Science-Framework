@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Magnesium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Magnesium
+  symbol: Mg
+  atomicNumber: 12
+  atomicWeight: 24.305
+  category: alkaline earth metal
+  protons: 12
+  neutrons: 12
+  electronShells: 020000000800000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2
+  electronegativity: 1.31
+  atomicRadius: 160
+  ionizationEnergy: 7.65
+  phaseAtSTP: Solid
+  density: 1.738
+  meltingPoint: 923
+  boilingPoint: 1363
+  discoveredBy: Joseph Black
+  description: Magnesium is a chemical element with symbol Mg and atomic number 12.
+    It is a shiny gray solid which bears a close physical resemblance to the other
+    five elements in the second column (Group 2, or alkaline earth metals) of the
+    periodic table:they each have the same electron configuration in their outer
+    electron shell producing a similar crystal structure. Magnesium is the ninth
+    most abundant element in the universe.

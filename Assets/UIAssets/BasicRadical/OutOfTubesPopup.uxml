@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements">
+    <Style src="ExperimentPopups.uss" />
+    <ui:VisualElement name="out-of-tubes-overlay" class="overlay">
+        <ui:VisualElement name="out-of-tubes-box" class="popup-box">
+            <ui:Label text="Out of Test Tubes!" class="title" />
+            <ui:Label text="You have used all 6 test tubes without testing all 4 required reagents. Please restart." class="message" />
+            <ui:VisualElement class="button-container">
+                <ui:Button text="Restart" name="btn-restart-out" class="popup-btn" />
+                <ui:Button text="Exit" name="btn-exit-out" class="popup-btn primary-btn" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

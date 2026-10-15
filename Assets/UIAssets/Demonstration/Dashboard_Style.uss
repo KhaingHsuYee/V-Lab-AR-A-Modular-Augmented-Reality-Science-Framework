@@ -1,0 +1,187 @@
+/* Main Floating Panel */
+.dashboard-root {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 480px; /* Widened slightly to accommodate the larger menu */
+    height: 70%;
+    background-color: rgba(20, 25, 35, 0.95);
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    flex-direction: column;
+    display: flex; 
+}
+
+/* Header Text */
+.header-title {
+    color: white;
+    font-size: 24px;
+    -unity-font-style: bold;
+    margin-bottom: 20px;
+    -unity-text-align: middle-center;
+}
+
+/* --- SEARCH BAR --- */
+.search-container {
+    flex-direction: row;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+/* 1. NEW FIX: Make the outer wrapper expand to fill the empty space */
+.search-input {
+    flex-grow: 1;
+}
+
+/* 2. Target the internal Unity input field to force the dark style */
+.search-input > .unity-text-field__input {
+    flex-grow: 1;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.2);
+    margin: 0; /* Removes default Unity margins to keep it flush */
+}
+
+.search-btn {
+    width: 90px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    -unity-font-style: bold;
+    border-width: 2px;
+    border-color: transparent;
+    transition-duration: 0.2s; 
+}
+
+/* Glowing Hover Effect */
+.search-btn:hover {
+    background-color: #55C85A; 
+    border-color: rgba(85, 200, 90, 0.6); 
+    scale: 1.05; 
+}
+/* --- MAIN CONTENT LAYOUT --- */
+.main-content {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+/* Left Side: Scrollable Legend */
+.legend-scroll {
+    width: 170px; /* Increased from 140px to prevent text wrapping */
+    border-right-width: 1px;
+    border-right-color: rgba(255, 255, 255, 0.2);
+    padding-right: 15px;
+}
+
+.legend-btn {
+    height: 45px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    color: white;
+    font-size: 13px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    border-width: 0;
+    white-space: normal;
+    transition-duration: 0.15s;
+}
+
+/* Specific Legend Button Colors */
+.color-noble { background-color: rgba(231, 76, 60, 0.8); }       
+.color-transition { background-color: rgba(46, 204, 113, 0.8); color: black; } 
+.color-alkali { background-color: rgba(41, 128, 185, 0.8); }     
+.color-lanthanide { background-color: rgba(127, 140, 141, 0.8); }
+.color-actinide { background-color: rgba(142, 68, 173, 0.8); }   
+.color-halogen { background-color: rgba(241, 196, 15, 0.8); color: black; }  
+.color-nonmetal { background-color: rgba(230, 126, 34, 0.8); }   
+
+.legend-btn:hover {
+    opacity: 1; 
+    scale: 1.02;
+}
+
+
+/* ==========================================
+   SLEEK CUSTOM SCROLLBAR OVERRIDES
+   ========================================== */
+
+/* 1. Hide the ugly default up/down arrows */
+.unity-scroller--vertical .unity-scroller__low-button,
+.unity-scroller--vertical .unity-scroller__high-button {
+    display: none;
+}
+
+/* 2. Make the vertical scroller thinner and give it a margin */
+.unity-scroller--vertical {
+    width: 6px;
+    margin-left: 8px;
+}
+
+/* 3. Style the background track to be subtle */
+.unity-base-slider__tracker {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-width: 0;
+    border-radius: 3px;
+}
+
+/* 4. Style the draggable thumb */
+.unity-base-slider__dragger {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-width: 0;
+    border-radius: 3px;
+    width: 6px;
+    left: 0;
+}
+
+/* 5. Make the thumb brighten when hovered */
+.unity-base-slider__dragger:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* --- RIGHT PANEL DATA DISPLAY --- */
+.data-panel {
+    flex-grow: 1;
+    padding-left: 20px;
+    flex-direction: column;
+}
+
+.data-title {
+    color: #4CAF50;
+    font-size: 28px;
+    -unity-font-style: bold;
+    margin-bottom: 2px;
+}
+
+.data-subtitle {
+    color: #AAAAAA;
+    font-size: 14px;
+    -unity-font-style: italic;
+    margin-bottom: 20px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+}
+
+.data-label-header {
+    color: #4CAF50;
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.data-value {
+    color: #E0E0E0;
+    font-size: 14px;
+    white-space: normal;
+    margin-bottom: 5px;
+}

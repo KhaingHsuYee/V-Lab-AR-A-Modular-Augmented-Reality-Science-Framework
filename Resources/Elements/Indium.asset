@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Indium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Indium
+  symbol: In
+  atomicNumber: 49
+  atomicWeight: 114.8181
+  category: post-transition metal
+  protons: 49
+  neutrons: 66
+  electronShells: 0200000008000000120000001200000003000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p1
+  electronegativity: 1.78
+  atomicRadius: 156
+  ionizationEnergy: 5.78
+  phaseAtSTP: Solid
+  density: 7.31
+  meltingPoint: 429.7485
+  boilingPoint: 2345
+  discoveredBy: Ferdinand Reich
+  description: Indium is a chemical element with symbol In and atomic number 49.
+    It is a post-transition metallic element that is rare in Earth's crust. The metal
+    is very soft, malleable and easily fusible, with a melting point higher than
+    sodium, but lower than lithium or tin.

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Xenon
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Xenon
+  symbol: Xe
+  atomicNumber: 54
+  atomicWeight: 131.2936
+  category: noble gas
+  protons: 54
+  neutrons: 77
+  electronShells: 0200000008000000120000001200000008000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6
+  electronegativity: 2.6
+  atomicRadius: 108
+  ionizationEnergy: 12.13
+  phaseAtSTP: Gas
+  density: 5.894
+  meltingPoint: 161.4
+  boilingPoint: 165.051
+  discoveredBy: William Ramsay
+  description: Xenon is a chemical element with symbol Xe and atomic number 54. It
+    is a colorless, dense, odorless noble gas, that occurs in the Earth's atmosphere
+    in trace amounts. Although generally unreactive, xenon can undergo a few chemical
+    reactions such as the formation of xenon hexafluoroplatinate, the first noble
+    gas compound to be synthesized.

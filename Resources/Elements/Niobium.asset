@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Niobium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Niobium
+  symbol: Nb
+  atomicNumber: 41
+  atomicWeight: 92.90637
+  category: transition metal
+  protons: 41
+  neutrons: 52
+  electronShells: 0200000008000000120000000c00000001000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d4
+  electronegativity: 1.6
+  atomicRadius: 146
+  ionizationEnergy: 6.76
+  phaseAtSTP: Solid
+  density: 8.57
+  meltingPoint: 2750
+  boilingPoint: 5017
+  discoveredBy: Charles Hatchett
+  description: Niobium, formerly columbium, is a chemical element with symbol Nb
+    (formerly Cb) and atomic number 41. It is a soft, grey, ductile transition metal,
+    which is often found in the pyrochlore mineral, the main commercial source for
+    niobium, and columbite. The name comes from Greek mythology:Niobe, daughter of
+    Tantalus since it is so similar to tantalum.

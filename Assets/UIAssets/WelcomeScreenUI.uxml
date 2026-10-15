@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/WelcomeScreenStyle.uss?fileID=7433441132597879392&amp;guid=f2c8a3ff2e55ee04d9c83b535cc95422&amp;type=3#WelcomeScreenStyle"/>
+    <ui:VisualElement name="welcome-screen-container" class="screen-container">
+        <ui:VisualElement class="welcome-panel">
+            <ui:Label text="To detect and place lab equipment follow the steps below:" class="title-text" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Fonts/Oswald-Bold.ttf?fileID=12800000&amp;guid=c82d81a3031c4ab4db735fcbe81e15b3&amp;type=3#Oswald-Bold&quot;);"/>
+            <ui:VisualElement name="VisualElement" class="instruction-box" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Fonts/Roboto_SemiCondensed-Medium.ttf?fileID=12800000&amp;guid=4028c0337d4b17e44be5b661de2a2461&amp;type=3#Roboto_SemiCondensed-Medium&quot;);">
+                <ui:Label text="1 - Move your device around to map the area" class="instruction-text"/>
+                <ui:Label text="2 - Find the wide table to get better experience" class="instruction-text"/>
+                <ui:Label text="3 - Touch the middle of the table to place the lab equipment" class="instruction-text"/>
+            </ui:VisualElement>
+            <ui:Button text="Dismiss" name="dismiss-button" class="primary-button" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Fonts/Oswald-Light.ttf?fileID=12800000&amp;guid=cef308eb06aa34645a50e50833103afd&amp;type=3#Oswald-Light&quot;);"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

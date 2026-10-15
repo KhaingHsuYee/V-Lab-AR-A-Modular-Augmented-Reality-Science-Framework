@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Lithium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Lithium
+  symbol: Li
+  atomicNumber: 3
+  atomicWeight: 6.94
+  category: alkali metal
+  protons: 3
+  neutrons: 4
+  electronShells: 0200000001000000
+  electronConfiguration: 1s2 2s1
+  electronegativity: 0.98
+  atomicRadius: 152
+  ionizationEnergy: 5.39
+  phaseAtSTP: Solid
+  density: 0.534
+  meltingPoint: 453.65
+  boilingPoint: 1603
+  discoveredBy: Johan August Arfwedson
+  description: "Lithium (from Greek:\u03BB\u03AF\u03B8\u03BF\u03C2 lithos, \"stone\")
+    is a chemical element with the symbol Li and atomic number 3. It is a soft, silver-white
+    metal belonging to the alkali metal group of chemical elements. Under standard
+    conditions it is the lightest metal and the least dense solid element."

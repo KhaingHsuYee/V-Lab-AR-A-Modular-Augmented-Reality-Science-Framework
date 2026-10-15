@@ -1,0 +1,134 @@
+/* --- FULL SCREEN OVERLAY (DIMS THE BACKGROUND) --- */
+.results-overlay {
+    position: absolute;
+    left: 0; 
+    top: 0; 
+    right: 0; 
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75); /* Dark gray transparent background */
+    align-items: center;
+    justify-content: center;
+    display: none; /* Hidden by default */
+}
+
+/* --- MAIN HOLOGRAPHIC PANEL --- */
+.results-panel {
+    width: 650px;
+    background-color: rgba(10, 15, 25, 0.95);
+    border-width: 2px;
+    border-color: rgb(0, 240, 255);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+/* --- TITLES & LABELS --- */
+.table-title {
+    font-size: 18px;
+    color: rgb(0, 240, 255);
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+/* --- TABLE GRID SYSTEM --- */
+.table-container {
+    flex-direction: column;
+    border-width: 1px;
+    border-color: rgba(0, 240, 255, 0.3);
+}
+
+.table-row {
+    flex-direction: row;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 240, 255, 0.2);
+}
+
+.header-row {
+    background-color: rgba(0, 240, 255, 0.1);
+}
+
+.header-cell {
+    flex-grow: 1;
+    width: 33%;
+    color: rgb(150, 180, 200);
+    font-size: 14px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    padding: 8px;
+    border-right-width: 1px;
+    border-right-color: rgba(0, 240, 255, 0.2);
+}
+
+/* --- TEXT INPUT FIELDS --- */
+.input-cell {
+    flex-grow: 1;
+    width: 33%;
+    height: 35px;
+    border-right-width: 1px;
+    border-right-color: rgba(0, 240, 255, 0.2);
+}
+
+.input-cell > .unity-base-field__input {
+    background-color: transparent;
+    border-width: 0;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    -unity-text-align: middle-center;
+}
+
+.input-cell > .unity-base-field__input:focus {
+    background-color: rgba(0, 240, 255, 0.15);
+}
+
+/* --- AUTO-CALCULATED OUTPUT --- */
+.output-cell {
+    flex-grow: 1;
+    width: 33%;
+    height: 35px;
+    color: rgb(57, 255, 20); 
+    font-size: 16px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    border-right-width: 1px;
+    border-right-color: rgba(0, 240, 255, 0.2);
+}
+
+/* --- BUTTONS --- */
+.btn-submit {
+    margin-top: 20px;
+    height: 40px;
+    background-color: rgba(57, 255, 20, 0.1);
+    color: rgb(57, 255, 20);
+    border-width: 1px;
+    border-color: rgb(57, 255, 20);
+    border-radius: 5px;
+    font-size: 16px;
+    -unity-font-style: bold;
+    transition-duration: 0.2s;
+}
+
+.btn-submit:hover {
+    background-color: rgb(57, 255, 20);
+    color: rgb(10, 15, 25);
+}
+
+.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    color: rgb(0, 240, 255);
+    border-width: 1px;
+    border-color: rgb(0, 240, 255);
+    border-radius: 15px;
+    -unity-font-style: bold;
+    font-size: 14px;
+}
+.btn-close:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    border-color: red;
+}

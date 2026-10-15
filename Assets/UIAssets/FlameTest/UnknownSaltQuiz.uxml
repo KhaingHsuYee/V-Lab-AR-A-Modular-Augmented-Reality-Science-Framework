@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/FlameTest/UnknownSaltQuizStyles.uss?fileID=7433441132597879392&amp;guid=1eec955c8ba30fc47886bcf47335f4a8&amp;type=3#UnknownSaltQuizStyles"/>
+    <ui:VisualElement name="Quiz_Overlay" class="quiz-overlay">
+        <ui:VisualElement class="quiz-container">
+            <ui:VisualElement class="quiz-panel challenge-panel">
+                <ui:Label text="ELEMENT IDENTIFICATION CHALLENGE" class="panel-header"/>
+                <ui:Label text="Observe the characteristic flame color. Identify the element responsible for this emission." picking-mode="Ignore" class="challenge-desc"/>
+                <ui:TextField name="Input_Element" placeholder-text="Enter Element Name (e.g., Sodium)" class="input-field"/>
+                <ui:Label name="Label_Feedback" text="" picking-mode="Ignore" class="feedback-label"/>
+                <ui:Button name="Btn_Submit" text="SUBMIT ANSWER" class="action-btn submit-btn"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

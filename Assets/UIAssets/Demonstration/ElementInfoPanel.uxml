@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="ElementInfoPanel.uss" />
+    
+    <ui:VisualElement name="screen-root" class="screen-root" picking-mode="Ignore">
+        
+        
+        <!-- NEW: Top Dashboard (Acts as Particle Color Legend) -->
+        <ui:VisualElement name="top-dashboard" class="top-dashboard" picking-mode="Position">
+            
+            <ui:VisualElement class="particle-stat">
+                <ui:VisualElement style="flex-direction: row; align-items: center;">
+                    <!-- Red for Protons -->
+                    <ui:VisualElement class="particle-color" style="background-color: rgb(255, 80, 80);" />
+                    <ui:Label text="Protons" class="particle-label"/>
+                </ui:VisualElement>
+                <ui:Label name="protons-text" text="1" class="particle-value" style="color: rgb(255, 80, 80);" />
+            </ui:VisualElement>
+            
+            <ui:VisualElement class="particle-divider"/>
+            
+            <ui:VisualElement class="particle-stat">
+                <ui:VisualElement style="flex-direction: row; align-items: center;">
+                    <!-- Gray for Neutrons -->
+                    <ui:VisualElement class="particle-color" style="background-color: rgb(170, 170, 170);" />
+                    <ui:Label text="Neutrons" class="particle-label"/>
+                </ui:VisualElement>
+                <ui:Label name="neutrons-text" text="0" class="particle-value" style="color: rgb(170, 170, 170);" />
+            </ui:VisualElement>
+            
+            <ui:VisualElement class="particle-divider"/>
+            
+            <ui:VisualElement class="particle-stat">
+                <ui:VisualElement style="flex-direction: row; align-items: center;">
+                    <!-- Cyan for Electrons -->
+                    <ui:VisualElement class="particle-color" style="background-color: rgb(0, 204, 255);" />
+                    <ui:Label text="Electrons" class="particle-label"/>
+                </ui:VisualElement>
+                <ui:Label name="electrons-text" text="1" class="particle-value" style="color: rgb(0, 204, 255);" />
+            </ui:VisualElement>
+            
+        </ui:VisualElement>
+
+        <!-- Left Panel -->
+        <ui:VisualElement name="main-container" class="main-panel" picking-mode="Position">
+            <ui:VisualElement class="header-section">
+                <ui:VisualElement class="header-left">
+                    <ui:Label name="symbol-text" text="H" class="symbol-text" />
+                </ui:VisualElement>
+                <ui:VisualElement class="header-right">
+                    <!-- Row container for Name and Play button -->
+                    <ui:VisualElement style="flex-direction: row; justify-content: space-between; align-items: center;">
+                        <ui:Label name="name-text" text="Hydrogen" class="name-text" />
+                        <ui:Button name="btn-play-pause" text="⏸" style="width: 35px; height: 35px; margin: 0; background-color: rgba(255,255,255,0.1); color: white; -unity-font-style: bold; border-width: 1px; border-color: rgba(255,255,255,0.3); border-radius: 8px; font-size: 16px;"/>
+                    </ui:VisualElement>
+                    <ui:Label name="number-mass-text" text="Atomic No. 1  |  1.008 u" class="subtitle-text" />
+                    <ui:Label name="category-text" text="Reactive Nonmetal" class="category-text" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:ScrollView class="details-scrollview" shows-vertical-scroll-indicator="true" shows-horizontal-scroll-indicator="true">
+                <ui:Label text="Description" class="section-title" />
+                <ui:Label name="desc-text" text="..." class="body-text" />
+                
+                <ui:Label text="Atomic Properties" class="section-title" />
+                <ui:VisualElement class="data-row"><ui:Label text="Configuration:" class="data-label"/><ui:Label name="config-text" text="-" class="data-value"/></ui:VisualElement>
+                <ui:VisualElement class="data-row"><ui:Label text="Electronegativity:" class="data-label"/><ui:Label name="electro-text" text="-" class="data-value"/></ui:VisualElement>
+                <ui:VisualElement class="data-row"><ui:Label text="Atomic Radius:" class="data-label"/><ui:Label name="radius-text" text="-" class="data-value"/></ui:VisualElement>
+                
+                <ui:Label text="Physical Properties" class="section-title" />
+                <ui:VisualElement class="data-row"><ui:Label text="Phase:" class="data-label"/><ui:Label name="phase-text" text="-" class="data-value"/></ui:VisualElement>
+                <ui:VisualElement class="data-row"><ui:Label text="Density:" class="data-label"/><ui:Label name="density-text" text="-" class="data-value"/></ui:VisualElement>
+                <ui:VisualElement class="data-row"><ui:Label text="Melting Point:" class="data-label"/><ui:Label name="melt-text" text="-" class="data-value"/></ui:VisualElement>
+                <ui:VisualElement class="data-row"><ui:Label text="Boiling Point:" class="data-label"/><ui:Label name="boil-text" text="-" class="data-value"/></ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

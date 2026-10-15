@@ -1,0 +1,36 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/Ohm_Law/LabResultsStyle.uss?fileID=7433441132597879392&amp;guid=605a36b74996b7c448ce2e8b1ef906e3&amp;type=3#LabResultsStyle"/>
+    <ui:VisualElement name="results-overlay" class="results-overlay">
+        <ui:VisualElement name="results-panel" class="results-panel">
+            <ui:Button text="X" name="btn-close-panel" class="btn-close"/>
+            <ui:Label text="TABLE 1: KIRCHHOFF&apos;S JUNCTION RULE" class="table-title"/>
+            <ui:VisualElement class="table-container">
+                <ui:VisualElement class="table-row header-row">
+                    <ui:Label text="Measurement Point" class="header-cell" style="width: 50%;"/>
+                    <ui:Label text="Current (mA)" class="header-cell" style="width: 50%; border-right-width: 0;"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="table-row">
+                    <ui:Label text="Branch 1 (R1 = 50 Ω)" class="header-cell" style="width: 50%; color: white;"/>
+                    <ui:TextField name="input-i1" class="input-cell" style="width: 50%; border-right-width: 0;"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="table-row">
+                    <ui:Label text="Branch 2 (R2 = 100 Ω)" class="header-cell" style="width: 50%; color: white;"/>
+                    <ui:TextField name="input-i2" class="input-cell" style="width: 50%; border-right-width: 0;"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="table-row">
+                    <ui:Label text="Total Current (Main)" class="header-cell" style="width: 50%; color: white;"/>
+                    <ui:TextField name="input-itotal" class="input-cell" style="width: 50%; border-right-width: 0;"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="VERIFY JUNCTION RULE" name="btn-grade" class="btn-submit"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="success-popup" style="display: none; position: absolute; width: 500px; background-color: rgb(15, 20, 30); border-radius: 10px; border-width: 2px; border-color: rgb(57, 255, 20); padding: 20px; align-items: center;">
+            <ui:Label text="EXPERIMENT SUCCESSFUL!" style="color: rgb(57, 255, 20); font-size: 22px; -unity-font-style: bold; margin-bottom: 10px;"/>
+            <ui:Label text="You verified that the total current entering the junction equals the sum of the currents leaving it (I_total = I_1 + I_2)." style="color: white; font-size: 14px; margin-bottom: 20px; white-space: normal;"/>
+            <ui:VisualElement style="flex-direction: row; justify-content: space-between; width: 100%;">
+                <ui:Button text="RESTART LAB" name="btn-restart-lab" style="flex-grow: 1; margin-right: 5px; height: 40px; background-color: rgb(100, 100, 100); color: white;"/>
+                <ui:Button text="EXIT TO MENU" name="btn-exit-lab" style="flex-grow: 1; margin-left: 5px; height: 40px; background-color: rgb(200, 50, 50); color: white;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

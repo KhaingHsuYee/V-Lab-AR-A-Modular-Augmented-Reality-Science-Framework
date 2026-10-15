@@ -1,0 +1,48 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    
+    <Style src="VinegarControls_Style.uss" />
+
+   <!-- NEW: TOP DATA DASHBOARD (VINEGAR LAB) -->
+    <ui:VisualElement class="info-dashboard">
+        
+        <!-- Section 1: Equation -->
+        <ui:VisualElement class="info-section">
+            <ui:Label text="REACTION EQUATION" class="info-header" />
+            <ui:Label text="CH&lt;sub&gt;3&lt;/sub&gt;COOH(aq) + NaOH(aq) &#8594; CH&lt;sub&gt;3&lt;/sub&gt;COONa(aq) + H&lt;sub&gt;2&lt;/sub&gt;O(l)" enable-rich-text="true" class="info-text equation-text" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="vertical-divider" />
+
+        <!-- Section 2: Experiment Data -->
+        <ui:VisualElement class="info-section">
+            <ui:Label text="EXPERIMENT DATA" class="info-header" />
+            <ui:Label text="Flask: 10.0 mL of 0.10 M NaOH" class="info-text data-base" />
+            <ui:Label text="Burette: Unknown [M] Vinegar" class="info-text data-acid" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="vertical-divider" />
+
+        <!-- Section 3: Indicator Key -->
+        <ui:VisualElement class="info-section">
+            <ui:Label text="PHENOLPHTHALEIN KEY" class="info-header" />
+            <ui:Label text="Pink (Basic) : pH &gt; 10.0" class="info-text color-pink" />
+            <ui:Label text="Colorless (Acidic) : pH &lt; 8.2" class="info-text color-colorless" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+
+    <!-- EXISTING UI STRUCTURE (Unchanged) -->
+    <ui:VisualElement class="titration-panel">
+        <ui:Label text="BURETTE" class="panel-header" />
+        <ui:VisualElement class="readout-box">
+            <ui:Label name="volume-text" text="0.00" class="volume-label" />
+            <ui:Label text="mL DISPENSED" class="unit-label" />
+        </ui:VisualElement>
+        <ui:VisualElement class="slider-container">
+            <ui:Slider name="burette-slider" direction="Vertical" low-value="0" high-value="1" />
+        </ui:VisualElement>
+        <ui:Label name="valve-status-text" text="VALVE CLOSED" class="valve-status" />
+        <ui:Button name="btn-reset-burette" text="RESET BURETTE" class="reset-burette-btn" />
+    </ui:VisualElement>
+
+</ui:UXML>

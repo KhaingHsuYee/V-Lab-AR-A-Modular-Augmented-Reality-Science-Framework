@@ -1,0 +1,75 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    
+    <Style src="TitrationResults_Style.uss" />
+    
+    <!-- EXISTING RESULTS OVERLAY -->
+    <ui:VisualElement name="results-overlay" class="results-overlay">
+        <ui:VisualElement name="results-box" class="results-box">
+            
+            <ui:Label text="Vinegar Titration Results" class="results-title"/>
+            <ui:Label text="Enter the volumes from your 3 trials below." class="results-message"/>
+            
+            <ui:VisualElement class="input-row">
+                <ui:Label text="Trial 1 (Rough) mL:" class="input-label"/>
+                <ui:TextField name="input-trial-1" class="input-field"/>
+            </ui:VisualElement>
+            
+            <ui:VisualElement class="input-row">
+                <ui:Label text="Trial 2 (Precise) mL:" class="input-label"/>
+                <ui:TextField name="input-trial-2" class="input-field"/>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="input-row">
+                <ui:Label text="Trial 3 (Precise) mL:" class="input-label"/>
+                <ui:TextField name="input-trial-3" class="input-field"/>
+            </ui:VisualElement>
+
+            <ui:Button name="btn-calc-mean" text="Calculate Mean Volume" class="action-btn"/>
+            <ui:Label name="mean-result-text" text="Mean Volume: -- mL" class="highlight-text"/>
+
+            <ui:VisualElement class="divider"/>
+
+            <ui:Label text="Calculate the following values:" class="results-message"/>
+            <ui:Label text="* Note: Molar mass of Acetic Acid = 60.05 g/mol" class="results-message" style="-unity-font-style: italic; font-size: 14px; opacity: 0.8; margin-bottom: 8px;"/>
+            
+            <ui:VisualElement class="input-row">
+                <ui:Label text="1. Diluted Concentration (M):" class="input-label"/>
+                <ui:TextField name="input-concentration" class="input-field"/>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="input-row">
+                <ui:Label text="2. Amount in 1L (g):" class="input-label"/>
+                <ui:TextField name="input-grams" class="input-field"/>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="input-row">
+                <ui:Label text="3. Household Vinegar %:" class="input-label"/>
+                <ui:TextField name="input-percentage" class="input-field"/>
+            </ui:VisualElement>
+
+            <ui:Label name="feedback-text" text="" class="feedback-text"/>
+
+            <ui:VisualElement class="button-container">
+                <ui:Button name="btn-close-results" text="Close" class="popup-btn popup-btn-secondary"/>
+                <ui:Button name="btn-submit-results" text="Submit" class="popup-btn popup-btn-primary"/>
+            </ui:VisualElement>
+            
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <!-- NEW: SUCCESS POPUP OVERLAY -->
+    <ui:VisualElement name="success-overlay" class="results-overlay" style="display: none;">
+        <ui:VisualElement name="success-box" class="results-box">
+            
+            <ui:Label text="Experiment Complete!" class="results-title" style="color: #22c55e; margin-bottom: 10px;"/>
+            <ui:Label text="You have successfully determined the concentration of acetic acid in the vinegar sample." class="results-message" style="white-space: normal; margin-bottom: 20px;"/>
+            
+            <ui:VisualElement class="button-container">
+                <ui:Button name="btn-stay-success" text="Stay in Lab" class="popup-btn popup-btn-secondary"/>
+                <ui:Button name="btn-exit-success" text="Exit to Menu" class="popup-btn popup-btn-primary"/>
+            </ui:VisualElement>
+            
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+</ui:UXML>

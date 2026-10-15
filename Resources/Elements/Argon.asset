@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Argon
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Argon
+  symbol: Ar
+  atomicNumber: 18
+  atomicWeight: 39.9481
+  category: noble gas
+  protons: 18
+  neutrons: 22
+  electronShells: 020000000800000008000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6
+  electronegativity: 0
+  atomicRadius: 71
+  ionizationEnergy: 15.76
+  phaseAtSTP: Gas
+  density: 0.001784
+  meltingPoint: 83.81
+  boilingPoint: 87.302
+  discoveredBy: Lord Rayleigh
+  description: Argon is a chemical element with symbol Ar and atomic number 18. It
+    is in group 18 of the periodic table and is a noble gas. Argon is the third most
+    common gas in the Earth's atmosphere, at 0.934% (9,340 ppmv), making it over
+    twice as abundant as the next most common atmospheric gas, water vapor (which
+    averages about 4000 ppmv, but varies greatly), and 23 times as abundant as the
+    next most common non-condensing atmospheric gas, carbon dioxide (400 ppmv), and
+    more than 500 times as abundant as the next most common noble gas, neon (18 ppmv).

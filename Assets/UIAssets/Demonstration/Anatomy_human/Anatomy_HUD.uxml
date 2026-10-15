@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Anatomy_HUD.uss" />
+    
+    <ui:VisualElement name="screen-root" class="screen-root" picking-mode="Ignore">
+        
+        <ui:Button name="btn-toggle-menu" text="SELECT SYSTEM" class="primary-btn toggle-menu-btn" picking-mode="Position"/>
+
+        <ui:VisualElement name="bottom-sheet-panel" class="bottom-sheet" picking-mode="Position">
+            <ui:Label name="sheet-title" text="BIOLOGICAL SYSTEMS" class="sheet-title"/>
+            <ui:ScrollView name="system-view" class="system-scrollview" shows-horizontal-scroll-indicator="false"/>
+            <ui:Button name="btn-close-menu" text="CLOSE" class="close-menu-btn"/>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="info-panel" class="info-panel" picking-mode="Position">
+            <ui:VisualElement name="info-header" class="info-header">
+                <ui:Label name="info-title" text="System Name" class="info-title" />
+                <ui:VisualElement style="flex-direction: row;">
+                    <ui:Button name="btn-play-pause" text="⏸" class="control-btn"/>
+                    <ui:Button name="btn-close-info" text="✖" class="close-info-btn"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            
+            <ui:ScrollView class="info-scrollview" shows-horizontal-scroll-indicator="false">
+                <ui:Label text="System Overview" class="section-title" />
+                <ui:Label name="info-overview" text="..." class="body-text overview-margin" />
+                
+                <ui:Label text="Key Organs" class="section-title" />
+                <ui:VisualElement name="organ-list-container" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

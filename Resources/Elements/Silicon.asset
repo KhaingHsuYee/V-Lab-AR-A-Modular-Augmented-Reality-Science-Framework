@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Silicon
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Silicon
+  symbol: Si
+  atomicNumber: 14
+  atomicWeight: 28.085
+  category: metalloid
+  protons: 14
+  neutrons: 14
+  electronShells: 020000000800000004000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p2
+  electronegativity: 1.9
+  atomicRadius: 111
+  ionizationEnergy: 8.15
+  phaseAtSTP: Solid
+  density: 2.329
+  meltingPoint: 1687
+  boilingPoint: 3538
+  discoveredBy: "J\xF6ns Jacob Berzelius"
+  description: Silicon is a chemical element with symbol Si and atomic number 14.
+    It is a tetravalent metalloid, more reactive than germanium, the metalloid directly
+    below it in the table. Controversy about silicon's character dates to its discovery.

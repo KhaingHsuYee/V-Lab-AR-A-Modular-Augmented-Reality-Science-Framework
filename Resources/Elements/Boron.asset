@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Boron
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Boron
+  symbol: B
+  atomicNumber: 5
+  atomicWeight: 10.81
+  category: metalloid
+  protons: 5
+  neutrons: 6
+  electronShells: 0200000003000000
+  electronConfiguration: 1s2 2s2 2p1
+  electronegativity: 2.04
+  atomicRadius: 85
+  ionizationEnergy: 8.3
+  phaseAtSTP: Solid
+  density: 2.08
+  meltingPoint: 2349
+  boilingPoint: 4200
+  discoveredBy: Joseph Louis Gay-Lussac
+  description: Boron is a metalloid chemical element with symbol B and atomic number
+    5. Produced entirely by cosmic ray spallation and supernovae and not by stellar
+    nucleosynthesis, it is a low-abundance element in both the Solar system and the
+    Earth's crust. Boron is concentrated on Earth by the water-solubility of its
+    more common naturally occurring compounds, the borate minerals.

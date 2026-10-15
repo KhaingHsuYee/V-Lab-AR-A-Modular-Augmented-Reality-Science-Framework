@@ -1,0 +1,72 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/BasicRadical/Dashboard.uss?fileID=7433441132597879392&amp;guid=110dd8273f4322d4ba231e7f20963c79&amp;type=3#Dashboard"/>
+    <ui:VisualElement name="MainWrapper" class="dashboard-wrapper">
+        <ui:VisualElement name="SlidingContainer" class="sliding-container">
+            
+            <!-- PAGE 0: FERROUS INSTRUCTIONS -->
+            <ui:VisualElement name="Page_Instructions" class="page-panel">
+                <ui:VisualElement class="table-container" style="height: auto; flex-grow: 0;">
+                    
+                    <!-- Header -->
+                    <ui:VisualElement class="table-row">
+                        <ui:Label text="Step Type" class="header-cell w-col-1"/>
+                        <ui:Label text="Test" class="header-cell w-col-2"/>
+                        <ui:Label text="Procedure" class="header-cell w-col-3"/>
+                        <ui:Label text="Visual Info" class="header-cell w-col-4 no-right-border"/>
+                    </ui:VisualElement>
+                    
+                    <!-- Preliminary Tests -->
+                    <ui:VisualElement class="table-row">
+                        <ui:Label text="Preliminary Tests" class="body-cell center-text w-col-1"/>
+                        <ui:VisualElement class="v-container flex-grow">
+                            <ui:VisualElement class="sub-row">
+                                <ui:Label text="1. Dil. HCl" class="body-cell w-col-2"/>
+                                <ui:Label text="Add dil. HCl to salt solution." class="body-cell w-col-3"/>
+                                <ui:Label text="No Precipitate Formed" class="body-cell w-col-4 no-right-border"/>
+                            </ui:VisualElement>
+                            <ui:VisualElement class="sub-row">
+                                <ui:Label text="2. H₂S Sol." class="body-cell w-col-2"/>
+                                <ui:Label text="Add H₂S sol. to above mixture." class="body-cell w-col-3"/>
+                                <ui:Label text="No Precipitate Formed" class="body-cell w-col-4 no-right-border"/>
+                            </ui:VisualElement>
+                            <ui:VisualElement class="sub-row no-bottom-border">
+                                <ui:Label text="3. Buffer" class="body-cell w-col-2"/>
+                                <ui:Label text="Add NH₄Cl and NH₄OH sol." class="body-cell w-col-3"/>
+                                <ui:Label text="Dirty Green Precipitate Formed" class="body-cell w-col-4 no-right-border"/>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+
+                    <!-- Confirmatory Tests -->
+                    <ui:VisualElement class="table-row no-bottom-border">
+                        <ui:Label text="Confirmatory Tests" class="body-cell center-text w-col-1"/>
+                        <ui:VisualElement class="v-container flex-grow">
+                            <ui:VisualElement class="sub-row">
+                                <ui:Label text="1. K₃[Fe(CN)₆]" class="body-cell w-col-2"/>
+                                <ui:Label text="Add K₃[Fe(CN)₆] solution." class="body-cell w-col-3"/>
+                                <ui:Label text="Deep Blue Precipitate Formed" class="body-cell w-col-4 no-right-border"/>
+                            </ui:VisualElement>
+                            <ui:VisualElement class="sub-row no-bottom-border">
+                                <ui:Label text="2. (NH₄)₂S" class="body-cell w-col-2"/>
+                                <ui:Label text="Add (NH₄)₂S to salt solution." class="body-cell w-col-3"/>
+                                <ui:Label text="Black Precipitate Formed" class="body-cell w-col-4 no-right-border"/>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    
+                </ui:VisualElement>
+                <ui:Label text="Swipe Left for Reaction Data ➔" class="swipe-hint"/>
+            </ui:VisualElement>
+
+            <!-- PAGE 1: REACTION DATA -->
+            <ui:VisualElement name="Page_Reaction" class="page-panel">
+                <ui:Label name="ReactionTitle" text="Waiting for Reagent..." class="header-title"/>
+                <ui:Label name="ReactionWhy" text="Select a reagent to see its diagnostic principles." class="body-text"/>
+                <ui:Label name="ReactionChemistry" text="" class="body-text"/>
+                <ui:Label name="ReactionEquation" text="" class="equation-text"/>
+                <ui:Label text="⬅ Swipe Right for Instructions" class="swipe-hint"/>
+            </ui:VisualElement>
+            
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

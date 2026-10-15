@@ -1,0 +1,89 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/ReagentMenu_Style.uss?fileID=7433441132597879392&amp;guid=85d7254897938a644be66f78feede53c&amp;type=3#ReagentMenu_Style"/>
+    <ui:VisualElement name="Reagent_Menu_Panel" class="sidebar-panel">
+        <ui:Label text="REAGENT MENU" name="Header_Title" class="main-title"/>
+        <ui:Label text="SELECT TO ADD TO SAMPLE" name="Header_Sub" class="sub-title"/>
+        <ui:ScrollView name="Scroll_View" vertical-scroller-visibility="Hidden">
+            <ui:Button name="Btn_HCl" class="reagent-row-button">
+                <ui:VisualElement class="reagent-thumbnail hcl-thumb" style="background-image: url(&quot;project://database/Assets/Assets/UIAssets/images/Reagents/HCL_bottle.png?fileID=2800000&amp;guid=acc8ff468fe89ca43a33f02e92d8ab78&amp;type=3#HCL_bottle&quot;); background-color: rgba(135, 126, 126, 0.2);"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Dilute Hydrochloric Acid" class="reagent-name"/>
+                    <ui:Label text="HCl (aq)" class="reagent-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="ADD" class="action-badge"/>
+            </ui:Button>
+            <ui:Button name="Btn_KI" class="reagent-row-button">
+                <ui:VisualElement class="reagent-thumbnail ki-thumb" style="background-image: url(&quot;project://database/Assets/Assets/UIAssets/images/Reagents/Potassium_iodide.png?fileID=2800000&amp;guid=4a829e916281cda418d669650b7dfe31&amp;type=3#Potassium_iodide&quot;); background-color: rgba(137, 129, 129, 0.3);"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Potassium Iodide" class="reagent-name"/>
+                    <ui:Label text="KI (aq)" class="reagent-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="ADD" class="action-badge"/>
+            </ui:Button>
+            <ui:Button name="Btn_NaOH" class="reagent-row-button">
+                <ui:VisualElement class="reagent-thumbnail naoh-thumb" style="background-image: url(&quot;project://database/Assets/Assets/UIAssets/images/Reagents/Sodium_hydroxide_bottle.png?fileID=2800000&amp;guid=3a32e816da6f2b14ba0e80e307dd1366&amp;type=3#Sodium_hydroxide_bottle&quot;); background-color: rgba(77, 72, 72, 0.3);"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Sodium Hydroxide" class="reagent-name"/>
+                    <ui:Label text="NaOH (aq)" class="reagent-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="ADD" class="action-badge"/>
+            </ui:Button>
+            <ui:Button name="Btn_K2CrO4" class="reagent-row-button">
+                <ui:VisualElement class="reagent-thumbnail k2cro4-thumb" style="background-image: url(&quot;project://database/Assets/Assets/UIAssets/images/Reagents/Potassium_chromate.png?fileID=2800000&amp;guid=bf7792e3ac60329448b02b0fde7a2a62&amp;type=3#Potassium_chromate&quot;); background-color: rgba(38, 30, 30, 0.3);"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Potassium Chromate" class="reagent-name"/>
+                    <ui:Label text="K₂CrO₄ (aq)" class="reagent-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="ADD" class="action-badge"/>
+            </ui:Button>
+            <ui:Button name="Btn_H2S" class="reagent-row-button">
+                <ui:VisualElement class="reagent-thumbnail h2s-thumb" style="background-image: url(&quot;project://database/Assets/Assets/UIAssets/images/Reagents/Hydrogen_sulphide.png?fileID=2800000&amp;guid=91ab5844d77de5d4cae29fea56eeffd4&amp;type=3#Hydrogen_sulphide&quot;); background-color: rgba(108, 61, 61, 0.3);"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Hydrogen Sulphide" class="reagent-name"/>
+                    <ui:Label text="H₂S (aq)" class="reagent-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="ADD" class="action-badge"/>
+            </ui:Button>
+            <ui:Button name="Btn_Fe" class="reagent-row-button">
+                <ui:VisualElement class="reagent-thumbnail fe-thumb" style="background-image: url(&quot;project://database/Assets/Assets/UIAssets/images/Reagents/Iron_nail.png?fileID=2800000&amp;guid=01e7bbfc5c0aa984ebeb70fb24f74207&amp;type=3#Iron_nail&quot;); background-color: rgba(43, 24, 24, 0.3);"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Iron Nail" class="reagent-name"/>
+                    <ui:Label text="Fe (s)" class="reagent-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="ADD" class="action-badge"/>
+            </ui:Button>
+            <ui:Button name="Btn_K4FeCN6" class="reagent-row-button">
+                <ui:VisualElement class="reagent-thumbnail k4fecn6-thumb" style="background-image: url(&quot;project://database/Assets/Assets/UIAssets/images/Reagents/Potassium_ferrocyanide.png?fileID=2800000&amp;guid=58fc6dca434c4ca4ebc35d15880391c4&amp;type=3#Potassium_ferrocyanide&quot;); background-color: rgba(67, 39, 39, 0.3);"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Potassium Ferrocyanide" class="reagent-name"/>
+                    <ui:Label text="K₄[Fe(CN)₆] (aq)" class="reagent-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="ADD" class="action-badge"/>
+            </ui:Button>
+            <ui:Button name="Btn_K3FeCN6" class="reagent-row-button">
+                <ui:VisualElement class="reagent-thumbnail k3fecn6-thumb"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Potassium Ferricyanide" class="reagent-name"/>
+                    <ui:Label text="K₃[Fe(CN)₆] (aq)" class="reagent-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="ADD" class="action-badge"/>
+            </ui:Button>
+            <ui:Button name="Btn_Buffer" class="reagent-row-button">
+                <ui:VisualElement class="reagent-thumbnail buffer-thumb" style="background-image: url(&quot;project://database/Assets/Assets/UIAssets/images/Reagents/ammonium_buffer_solution.png?fileID=2800000&amp;guid=2733dae93ae62f54cb0410e1f924d7af&amp;type=3#ammonium_buffer_solution&quot;); background-color: rgba(53, 44, 44, 0.3);"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Buffer Solution" class="reagent-name"/>
+                    <ui:Label text="NH₄Cl + NH₄OH (aq)" class="reagent-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="ADD" class="action-badge"/>
+            </ui:Button>
+            <ui:Button name="Btn_NH42S" class="reagent-row-button">
+                <ui:VisualElement class="reagent-thumbnail nh42s-thumb" style="background-image: url(&quot;project://database/Assets/Assets/UIAssets/images/Reagents/Ammonium_sulphide_bottle.png?fileID=2800000&amp;guid=ebe37ec567e71f24ebac97e164daa27e&amp;type=3#Ammonium_sulphide_bottle&quot;); background-color: rgba(67, 48, 48, 0.3);"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Ammonium Sulphide" class="reagent-name"/>
+                    <ui:Label text="(NH₄)₂S (aq)" class="reagent-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="ADD" class="action-badge"/>
+            </ui:Button>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

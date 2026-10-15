@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Copernicium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Copernicium
+  symbol: Cn
+  atomicNumber: 112
+  atomicWeight: 285
+  category: transition metal
+  protons: 112
+  neutrons: 173
+  electronShells: 02000000080000001200000020000000200000001200000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10
+    6p6 7s2 5f14 6d10
+  electronegativity: 0
+  atomicRadius: 147
+  ionizationEnergy: 11.9
+  phaseAtSTP: Liquid
+  density: 14
+  meltingPoint: 0
+  boilingPoint: 3570
+  discoveredBy: "Gesellschaft f\xFCr Schwerionenforschung"
+  description: Copernicium is a chemical element with symbol Cn and atomic number
+    112. It is an extremely radioactive synthetic element that can only be created
+    in a laboratory. The most stable known isotope, copernicium-285, has a half-life
+    of approximately 29 seconds, but it is possible that this copernicium isotope
+    may have a nuclear isomer with a longer half-life, 8.9 min.

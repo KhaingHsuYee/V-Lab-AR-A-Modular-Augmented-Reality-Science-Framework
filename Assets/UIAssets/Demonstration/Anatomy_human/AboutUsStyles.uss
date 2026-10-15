@@ -1,0 +1,210 @@
+.main-container {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 20, 30);
+    /* Reuses your main lab background */
+    background-image: url("project://database/Assets/Assets/Images/lab_bg_1.jpg");
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+/* Top-Left Navigation */
+/* Updated Back Button */
+.back-btn {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; /* Perfect circle */
+    background-color: rgb(15, 20, 30); /* Dark solid background */
+    border-color: rgb(61, 227, 181); /* Cyan border */
+    border-width: 2px;
+    color: white; /* White arrow */
+    font-size: 28px; /* Slightly larger text for the thin arrow */
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    transition-duration: 0.2s;
+    padding-bottom: 2px; /* Optically centers the arrow */
+}
+
+.back-btn:hover {
+    background-color: rgb(61, 227, 181);
+    color: rgb(15, 20, 30); /* Dark arrow on hover */
+    scale: 1.1;
+    box-shadow: 0 0 15px rgba(61, 227, 181, 0.4);
+}
+
+
+
+/* Dual Column Layout */
+.glass-card {
+    width: 900px;
+    background-color: rgba(15, 20, 30, 0.85);
+    border-radius: 30px;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-width: 2px;
+    padding: 50px;
+    flex-direction: row;
+    /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); */
+    transition-duration: 0.8s;
+    transition-timing-function: ease-out-back;
+}
+
+.dual-layout > * {
+    flex-grow: 1;
+}
+
+.app-info-col {
+    width: 55%;
+    padding-right: 40px;
+    justify-content: center;
+}
+
+.header-row {
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.brand-title {
+    font-size: 60px;
+    color: white;
+    -unity-font-style: bold;
+    letter-spacing: 3px;
+    text-shadow: 0 0 15px rgba(61, 227, 181, 0.6);
+    transition-duration: 1s;
+}
+
+.brand-title-pulse {
+    text-shadow: 0 0 35px rgba(61, 227, 181, 1);
+    scale: 1.02;
+}
+
+.version-badge {
+    background-color: rgba(61, 227, 181, 0.2);
+    color: rgb(61, 227, 181);
+    padding: 5px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-left: 15px;
+    margin-bottom: 12px;
+}
+
+.about-desc {
+    font-size: 18px;
+    color: rgb(200, 220, 240);
+    white-space: normal;
+    /* line-height: 28px; */
+    margin-bottom: 40px;
+}
+
+/* Powered By Tags */
+.section-header {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.tags-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tech-tag {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-width: 1px;
+}
+
+.border-cyan { border-color: rgba(61, 227, 181, 0.5); }
+.border-purple { border-color: rgba(180, 100, 255, 0.5); }
+
+.vertical-divider {
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-grow: 0;
+}
+
+/* Developer Column */
+.dev-info-col {
+    width: 40%;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 65px;
+    background-color: rgba(61, 227, 181, 0.15);
+    border-color: rgb(61, 227, 181);
+    border-width: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* box-shadow: 0 0 20px rgba(61, 227, 181, 0.2); */
+}
+
+.avatar-emoji {
+    font-size: 60px;
+}
+
+.dev-name {
+    font-size: 32px;
+    color: white;
+    -unity-font-style: bold;
+    margin-bottom: 5px;
+}
+
+.dev-role {
+    font-size: 16px;
+    color: rgb(180, 100, 255);
+    -unity-font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Academic Info Section */
+.academic-container {
+    width: 100%;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 15px;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-width: 1px;
+}
+
+.academic-highlight {
+    font-size: 16px;
+    color: rgb(61, 227, 181); /* Cyan accent */
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    /* text-transform: uppercase; */
+}
+
+.academic-text {
+    font-size: 14px;
+    color: rgb(200, 220, 240);
+    margin-bottom: 4px;
+    -unity-text-align: middle-center;
+}
+.bg-cyan { background-color: rgb(61, 227, 181); }
+.bg-purple { background-color: rgb(180, 100, 255); }
+
+/* Animation Starting States */
+.hidden-start-top { translate: 0 -100px; opacity: 0; }
+.hidden-start-bottom { translate: 0 100px; opacity: 0; }

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="width: 400px; background-color: rgba(10, 15, 25, 0.85); border-width: 2px; border-color: rgb(0, 240, 255); border-radius: 10px; padding: 20px;">
+        <ui:Label text="EXPERIMENT STEPS" style="color: rgb(0, 240, 255); font-size: 18px; -unity-font-style: bold; margin-bottom: 15px; -unity-text-align: middle-center;" />
+        
+        <ui:Label text="1. Switch to WIRE mode and connect the components." style="color: white; font-size: 14px; margin-bottom: 10px; white-space: normal;" />
+        <ui:Label text="2. Tap the Power Supply to open its Inspector." style="color: white; font-size: 14px; margin-bottom: 10px; white-space: normal;" />
+        <ui:Label text="3. Adjust the voltage and read the Voltmeter/Ammeter." style="color: white; font-size: 14px; margin-bottom: 10px; white-space: normal;" />
+        <ui:Label text="4. Open the Results table to log your data." style="color: white; font-size: 14px; white-space: normal;" />
+    </ui:VisualElement>
+</ui:UXML>

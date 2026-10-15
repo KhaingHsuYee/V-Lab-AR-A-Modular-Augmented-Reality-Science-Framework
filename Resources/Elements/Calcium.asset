@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Calcium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Calcium
+  symbol: Ca
+  atomicNumber: 20
+  atomicWeight: 40.0784
+  category: alkaline earth metal
+  protons: 20
+  neutrons: 20
+  electronShells: 02000000080000000800000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2
+  electronegativity: 1
+  atomicRadius: 197
+  ionizationEnergy: 6.11
+  phaseAtSTP: Solid
+  density: 1.55
+  meltingPoint: 1115
+  boilingPoint: 1757
+  discoveredBy: Humphry Davy
+  description: Calcium is a chemical element with symbol Ca and atomic number 20.
+    Calcium is a soft gray alkaline earth metal, fifth-most-abundant element by mass
+    in the Earth's crust. The ion Ca2+ is also the fifth-most-abundant dissolved
+    ion in seawater by both molarity and mass, after sodium, chloride, magnesium,
+    and sulfate.

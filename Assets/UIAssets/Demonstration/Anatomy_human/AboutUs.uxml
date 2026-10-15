@@ -1,0 +1,50 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/Demonstration/Anatomy_human/AboutUsStyles.uss?fileID=7433441132597879392&amp;guid=69101be9b7c55fe409c4649e9ac4e84d&amp;type=3#AboutUsStyles"/>
+    
+    <ui:VisualElement class="main-container">
+        <!-- Back Navigation -->
+        <ui:Button name="btn-back" text="←" class="back-btn hidden-start-top"/>
+
+        <!-- Main Split Card -->
+        <ui:VisualElement class="glass-card dual-layout hidden-start-bottom">
+            
+            <!-- Left Column: App Info & Tech Stack -->
+            <ui:VisualElement class="app-info-col">
+                <ui:VisualElement class="header-row">
+                    <ui:Label name="about-title" text="VLab AR" class="brand-title"/>
+                    <ui:Label text="v1.0 Beta" class="version-badge"/>
+                </ui:VisualElement>
+                <ui:Label text="An immersive augmented reality environment designed to bring complex scientific experiments and physics explorations directly into your physical space." class="about-desc"/>
+                
+                <ui:Label text="POWERED BY" class="section-header"/>
+                <ui:VisualElement class="tags-container">
+                    <ui:Label text="Unity Engine" class="tech-tag border-cyan"/>
+                    <ui:Label text="AR Foundation" class="tech-tag border-purple"/>
+                    <ui:Label text="ARCore XR" class="tech-tag border-cyan"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <!-- Vertical Divider -->
+            <ui:VisualElement class="vertical-divider"/>
+
+            <!-- Right Column: Developer Profile -->
+            <ui:VisualElement class="dev-info-col">
+                <ui:VisualElement class="avatar-circle">
+                    <ui:Label text="👩‍💻" class="avatar-emoji"/>
+                </ui:VisualElement>
+                <ui:Label text="Khaing Hsu Yee" class="dev-name"/>
+                <ui:Label text="Developer" class="dev-role"/>
+                
+                <!-- New Academic Info Section -->
+                <ui:VisualElement class="academic-container">                    
+                    <ui:Label text="B.E. THESIS PROJECT" class="academic-highlight"/>
+                    <ui:Label text="Department of Information Science" class="academic-text"/>
+                    <ui:Label text="University of Technology" class="academic-text"/>
+                    <ui:Label text="(YATANARPON CYBER CITY)" class="academic-text"/>
+                    <ui:Label text="Supervised by: Dr. Nyo Nyo Yee" class="academic-text"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

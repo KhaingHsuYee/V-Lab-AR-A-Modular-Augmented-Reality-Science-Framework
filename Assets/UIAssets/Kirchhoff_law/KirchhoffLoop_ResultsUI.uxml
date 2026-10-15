@@ -1,0 +1,40 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/Ohm_Law/LabResultsStyle.uss?fileID=7433441132597879392&amp;guid=605a36b74996b7c448ce2e8b1ef906e3&amp;type=3#LabResultsStyle"/>
+    <ui:VisualElement name="results-overlay" class="results-overlay">
+        <ui:VisualElement name="results-panel" class="results-panel">
+            <ui:Button text="X" name="btn-close-panel" class="btn-close"/>
+            <ui:Label text="TABLE 2: KIRCHHOFF&apos;S LOOP RULE" class="table-title"/>
+            <ui:VisualElement class="table-container">
+                <ui:VisualElement class="table-row header-row">
+                    <ui:Label text="Resistor" class="header-cell"/>
+                    <ui:Label text="Voltage (V)" class="header-cell"/>
+                    <ui:Label text="Total Voltage (V)" class="header-cell" style="border-right-width: 0;"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="table-row">
+                    <ui:Label text="R1 (50 Ω)" class="header-cell" style="color: white;"/>
+                    <ui:TextField name="input-v1" class="input-cell"/>
+                    <ui:TextField name="input-vtotal" class="input-cell" style="border-right-width: 0;"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="table-row">
+                    <ui:Label text="R2 (100 Ω)" class="header-cell" style="color: white;"/>
+                    <ui:TextField name="input-v2" class="input-cell"/>
+                    <ui:Label text="-" class="output-cell" style="border-right-width: 0;"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="table-row">
+                    <ui:Label text="R3 (150 Ω)" class="header-cell" style="color: white;"/>
+                    <ui:TextField name="input-v3" class="input-cell"/>
+                    <ui:Label text="-" class="output-cell" style="border-right-width: 0;"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="VERIFY LOOP RULE" name="btn-grade" class="btn-submit"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="success-popup" style="display: none; position: absolute; width: 500px; background-color: rgb(15, 20, 30); border-radius: 10px; border-width: 2px; border-color: rgb(57, 255, 20); padding: 20px; align-items: center;">
+            <ui:Label text="EXPERIMENT SUCCESSFUL!" style="color: rgb(57, 255, 20); font-size: 22px; -unity-font-style: bold; margin-bottom: 10px;"/>
+            <ui:Label text="You verified that the sum of the voltage drops across the loop equals the total source voltage (V_source = V_1 + V_2 + V_3)." style="color: white; font-size: 14px; margin-bottom: 20px; white-space: normal;"/>
+            <ui:VisualElement style="flex-direction: row; justify-content: space-between; width: 100%;">
+                <ui:Button text="RESTART LAB" name="btn-restart-lab" style="flex-grow: 1; margin-right: 5px; height: 40px; background-color: rgb(100, 100, 100); color: white;"/>
+                <ui:Button text="EXIT TO MENU" name="btn-exit-lab" style="flex-grow: 1; margin-left: 5px; height: 40px; background-color: rgb(200, 50, 50); color: white;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

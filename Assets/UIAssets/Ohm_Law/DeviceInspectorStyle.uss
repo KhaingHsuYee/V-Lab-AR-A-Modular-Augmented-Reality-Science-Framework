@@ -1,0 +1,308 @@
+/* --- MAIN PANEL BACKGROUND --- */
+.inspector-panel {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 340px;
+    background-color: rgba(10, 15, 25, 0.85);
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-color: rgb(0, 240, 255); 
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    padding: 15px;
+    display: none; 
+}
+
+/* --- HEADERS & TEXT --- */
+.header-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 240, 255, 0.3);
+    padding-bottom: 5px;
+}
+
+.title-text {
+    font-size: 22px;
+    color: rgb(0, 240, 255);
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+}
+
+.reading-text {
+    font-size: 28px;
+    color: rgb(57, 255, 20);
+    -unity-font-style: bold;
+    margin-bottom: 15px;
+    -unity-text-align: middle-center;
+}
+
+.section-label {
+    font-size: 12px;
+    color: rgb(150, 180, 200);
+    -unity-font-style: bold;
+    margin-bottom: 5px;
+}
+
+/* --- CONNECTION ROWS --- */
+.connection-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left-width: 3px;
+    border-left-color: rgb(0, 240, 255);
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.connection-info-container {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.port-text {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+}
+
+.target-text {
+    font-size: 12px;
+    color: rgb(180, 200, 220);
+}
+
+/* --- BUTTONS --- */
+.btn-close {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    color: rgb(0, 240, 255);
+    border-width: 1px;
+    border-color: rgb(0, 240, 255);
+    border-radius: 15px;
+    font-size: 14px;
+    -unity-font-style: bold;
+    transition-duration: 0.2s;
+}
+
+.btn-close:hover {
+    background-color: rgb(0, 240, 255);
+    color: rgb(10, 15, 25);
+}
+
+.btn-delete {
+    width: 35px;
+    height: 35px;
+    background-color: rgba(255, 50, 50, 0.1);
+    color: rgb(255, 100, 100);
+    border-width: 1px;
+    border-color: rgb(255, 50, 50);
+    border-radius: 5px;
+    font-size: 16px;
+    -unity-font-style: bold;
+    transition-duration: 0.2s;
+}
+
+.btn-delete:hover {
+    background-color: rgb(255, 50, 50);
+    color: white;
+}
+
+/* --- TABS --- */
+.tab-container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(0, 240, 255, 0.3);
+}
+
+.tab-button {
+    flex-grow: 1;
+    background-color: transparent;
+    color: rgb(150, 180, 200);
+    border-width: 0;
+    border-radius: 0;
+    font-size: 14px;
+    -unity-font-style: bold;
+    padding: 8px;
+    transition-duration: 0.2s;
+}
+
+.tab-button:hover {
+    background-color: rgba(0, 240, 255, 0.1);
+    color: rgb(0, 240, 255);
+}
+
+.tab-active {
+    color: rgb(0, 240, 255);
+    border-bottom-width: 3px;
+    border-bottom-color: rgb(0, 240, 255);
+    background-color: rgba(0, 240, 255, 0.05);
+}
+
+.tab-content {
+    flex-direction: column;
+    min-height: 120px;
+}
+
+/* --- SLIDER STYLING --- */
+.voltage-slider {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top-width: 1px;
+    border-top-color: rgba(0, 240, 255, 0.3);
+}
+
+.voltage-slider .unity-base-slider__tracker {
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 6px;
+    border-width: 0;
+}
+
+.voltage-slider .unity-base-slider__dragger {
+    background-color: rgb(0, 240, 255);
+    border-width: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    margin-top: -5px;
+}
+
+.voltage-slider .unity-label {
+    color: rgb(150, 180, 200);
+    font-size: 12px;
+    -unity-font-style: bold;
+    width: 110px;
+}
+
+/* --- CUSTOM DROPDOWN REPLACEMENTS --- */
+.dropdown-container {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 10px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: rgba(0, 240, 255, 0.3);
+}
+
+.custom-dropdown-wrapper {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.dropdown-label {
+    color: rgb(180, 200, 220);
+    font-size: 12px;
+    width: 85px;
+    -unity-font-style: bold;
+}
+
+.custom-dropdown-btn {
+    flex-grow: 1;
+    background-color: rgba(10, 15, 25, 0.9);
+    color: white;
+    border-color: rgba(0, 240, 255, 0.5);
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 4px 8px;
+    font-size: 11px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-left;
+    transition-duration: 0.1s;
+}
+
+.custom-dropdown-btn:hover {
+    background-color: rgba(0, 240, 255, 0.2);
+    border-color: rgb(0, 240, 255);
+}
+
+/* --- THE FLOATING POPUP LISTS --- */
+.custom-dropdown-list {
+    position: absolute;
+    left: 95px;
+    right: 10px;
+    max-height: 100px;
+    background-color: rgb(10, 15, 25);
+    border-color: rgb(0, 240, 255);
+    border-width: 1px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* Exact positioning so they align directly under their respective buttons */
+.local-list-pos { top: 35px; }
+.target-list-pos { top: 68px; }
+
+/* --- FIXING THE UGLY SCROLLBAR --- */
+.custom-dropdown-list .unity-scroll-view__vertical-scroller {
+    width: 6px;
+}
+
+.custom-dropdown-list .unity-scroller__low-button,
+.custom-dropdown-list .unity-scroller__high-button {
+    display: none;
+    height: 0;
+}
+
+.custom-dropdown-list .unity-base-slider__tracker {
+    background-color: transparent;
+    border-width: 0;
+}
+
+.custom-dropdown-list .unity-base-slider__dragger {
+    background-color: rgba(0, 240, 255, 0.5);
+    border-radius: 3px;
+}
+
+.custom-dropdown-list .unity-base-slider__dragger:hover {
+    background-color: rgb(0, 240, 255);
+}
+
+/* --- INDIVIDUAL CHOICES INSIDE THE LIST --- */
+.custom-list-item {
+    background-color: transparent;
+    color: rgb(200, 220, 240);
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 240, 255, 0.1);
+    font-size: 12px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-left;
+    padding: 6px;
+    border-radius: 0;
+    margin: 0;
+}
+
+.custom-list-item:hover {
+    background-color: rgba(0, 240, 255, 0.3);
+    color: white;
+}
+
+/* --- CONNECT BUTTON --- */
+.btn-connect {
+    background-color: rgba(0, 240, 255, 0.2);
+    color: rgb(0, 240, 255);
+    border-width: 1px;
+    border-color: rgb(0, 240, 255);
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-top: 5px;
+    transition-duration: 0.2s;
+}
+
+.btn-connect:hover {
+    background-color: rgb(0, 240, 255);
+    color: rgb(10, 15, 25);
+}

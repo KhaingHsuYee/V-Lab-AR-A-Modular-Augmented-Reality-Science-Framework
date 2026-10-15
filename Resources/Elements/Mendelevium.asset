@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Mendelevium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Mendelevium
+  symbol: Md
+  atomicNumber: 101
+  atomicWeight: 258
+  category: actinide
+  protons: 101
+  neutrons: 157
+  electronShells: 020000000800000012000000200000001f0000000800000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10
+    6p6 7s2 5f13
+  electronegativity: 1.3
+  atomicRadius: 173
+  ionizationEnergy: 6.58
+  phaseAtSTP: Solid
+  density: 0
+  meltingPoint: 1100
+  boilingPoint: 0
+  discoveredBy: Lawrence Berkeley National Laboratory
+  description: Mendelevium is a synthetic element with chemical symbol Md (formerly
+    Mv) and atomic number 101. A metallic radioactive transuranic element in the
+    actinide series, it is the first element that currently cannot be produced in
+    macroscopic quantities through neutron bombardment of lighter elements. It is
+    the antepenultimate actinide and the ninth transuranic element.

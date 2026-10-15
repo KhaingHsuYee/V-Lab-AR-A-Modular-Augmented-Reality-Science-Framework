@@ -1,0 +1,43 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/Demonstration/DemonstrationMenuStyles.uss?fileID=7433441132597879392&amp;guid=4af0a1fda7588894f8de60426b558456&amp;type=3#DemonstrationMenuStyles"/>
+    <ui:VisualElement class="main-container">
+        <ui:VisualElement class="top-nav">
+            <ui:Button name="btn-back" text="←" class="back-btn"/>
+            <ui:VisualElement class="title-container">
+                <ui:Label text="🔭" class="title-icon"/>
+                <ui:Label text="Explorations" class="main-title"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:ScrollView mode="Horizontal" class="experiment-scrollview">
+            <ui:VisualElement class="experiment-card">
+                <ui:VisualElement class="card-icon-area">
+                    <ui:Label text="⚛️" class="card-icon"/>
+                </ui:VisualElement>
+                <ui:Label text="Periodic Table" class="card-title"/>
+                <ui:Button name="btn-periodic" text="PLAY" class="play-btn"/>
+            </ui:VisualElement>
+            <ui:VisualElement class="experiment-card">
+                <ui:VisualElement class="card-icon-area">
+                    <ui:Label text="🪐" class="card-icon"/>
+                </ui:VisualElement>
+                <ui:Label text="Solar System" class="card-title"/>
+                <ui:Button name="btn-solar" text="PLAY" class="play-btn"/>
+            </ui:VisualElement>
+            <ui:VisualElement class="experiment-card">
+                <ui:VisualElement class="card-icon-area">
+                    <ui:Label text="🧬" class="card-icon"/>
+                </ui:VisualElement>
+                <ui:Label text="AR Molecule Explorer" class="card-title"/>
+                <ui:Button name="btn-molecule" text="PLAY" class="play-btn"/>
+            </ui:VisualElement>
+            <!-- Insert below the AR Molecule Explorer card -->
+            <ui:VisualElement class="experiment-card">
+                <ui:VisualElement class="card-icon-area">
+                    <ui:Label text="🧠" class="card-icon"/>
+                </ui:VisualElement>
+                <ui:Label text="Anatomy Explorer" class="card-title"/>
+                <ui:Button name="btn-anatomy" text="PLAY" class="play-btn"/>
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

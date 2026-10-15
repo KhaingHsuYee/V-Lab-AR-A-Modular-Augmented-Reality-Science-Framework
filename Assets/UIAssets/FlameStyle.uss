@@ -1,0 +1,14 @@
+.instrument-panel { 
+    background-color: rgba(10, 15, 20, 0.85); 
+    border-color: #44FFFF; 
+    border-width: 1.5px; 
+    padding: 15px; 
+    width: 600px; 
+}
+.system-header { color: #44FFFF; font-size: 10px; letter-spacing: 3px; margin-bottom: 10px; }
+.label-header { color: #888888; font-size: 9px; letter-spacing: 1px; }
+.data-text { color: white; font-size: 14px; }
+.graph-box { height: 120px; background-color: black; border-width: 0.5px; border-color: #333; }
+.footer { margin-top: 15px; border-top-width: 0.5px; border-color: #333; padding-top: 10px; }
+.footer-title { color: #44FFFF; font-size: 18px; }
+.footer-metrics { color: #CCCCCC; font-size: 12px; }

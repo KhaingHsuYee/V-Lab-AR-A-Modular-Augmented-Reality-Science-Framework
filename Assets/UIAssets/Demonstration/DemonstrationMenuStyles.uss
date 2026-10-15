@@ -1,0 +1,187 @@
+.main-container {
+    flex-grow: 1;
+    /* You can swap this URL if you want a different background image for demonstrations */
+    background-image: url("project://database/Assets/Assets/Images/davinci_extreme_macro_close_up_of_a_glowing_bioluminescent.png?fileID=2800000&guid=9d816dfdc1c21ae4ab42ba1cb17fdd7f&type=3#davinci_extreme_macro_close_up_of_a_glowing_bioluminescent");
+    -unity-background-scale-mode: scale-and-crop;
+    -unity-background-image-tint-color: rgb(150, 150, 150);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.top-nav {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.back-btn {
+    width: 55px;
+    height: 55px;
+    border-radius: 27px;
+    background-color: rgba(30, 40, 50, 0.8);
+    border-color: rgba(61, 227, 181, 0.5);
+    border-width: 2px;
+    color: white;
+    font-size: 26px;
+    -unity-font-style: bold;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out-back;
+}
+
+.back-btn:hover {
+    background-color: rgba(61, 227, 181, 0.3);
+    scale: 1.1;
+}
+
+.title-container {
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.title-icon {
+    font-size: 45px;
+    margin-right: 15px;
+}
+
+.main-title {
+    font-size: 32px;
+    color: rgb(120, 210, 190);
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+}
+
+.experiment-scrollview {
+    width: 100%;
+    height: 70%;
+    margin-top: 80px;
+}
+
+.experiment-scrollview .unity-scroll-view__horizontal-scroller {
+    display: none;
+}
+
+.experiment-scrollview .unity-scroll-view__content-container {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.experiment-card {
+    width: 320px;
+    height: 420px;
+    background-color: rgb(15, 25, 35);
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: rgba(61, 227, 181, 0.2);
+    margin-right: 40px;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out-bounce;
+}
+
+.experiment-card:hover {
+    scale: 1.05;
+    border-color: rgb(61, 227, 181);
+    background-color: rgb(25, 40, 55);
+    translate: 0 -10px;
+}
+
+.card-icon-area {
+    width: 110px;
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 55px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition-duration: 0.3s;
+}
+
+.card-icon {
+    font-size: 55px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out-back;
+}
+
+.experiment-card:hover .card-icon {
+    scale: 1.25;
+}
+
+.experiment-card:hover .card-icon-area {
+    background-color: rgba(61, 227, 181, 0.15);
+}
+
+.card-title {
+    color: rgb(220, 220, 220);
+    font-size: 20px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    white-space: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.play-btn {
+    width: 85%;
+    height: 55px;
+    background-color: rgba(20, 40, 60, 0.8);
+    border-width: 2px;
+    border-color: rgb(80, 140, 200);
+    border-radius: 27px;
+    color: white;
+    font-size: 18px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+    transition-duration: 0.2s;
+}
+
+.play-btn:hover {
+    background-color: rgb(61, 227, 181);
+    border-color: white;
+    color: rgb(15, 25, 35);
+    scale: 1.05;
+}
+
+/* --- SCROLLBAR STYLING --- */
+.experiment-scrollview .unity-scroll-view__horizontal-scroller {
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+
+.experiment-scrollview .unity-scroller__low-button,
+.experiment-scrollview .unity-scroller__high-button {
+    display: none;
+}
+
+.experiment-scrollview .unity-base-slider__tracker {
+    background-color: rgba(20, 30, 45, 0.8);
+    border-width: 1px;
+    border-color: rgba(61, 227, 181, 0.2);
+    border-radius: 4px;
+    height: 8px;
+    margin-top: 4px;
+}
+
+.experiment-scrollview .unity-base-slider__dragger {
+    background-color: rgba(61, 227, 181, 0.6);
+    border-width: 0;
+    border-radius: 4px;
+    height: 8px;
+    margin-top: 4px;
+    transition-duration: 0.2s;
+}
+
+.experiment-scrollview .unity-base-slider__dragger:hover {
+    background-color: rgb(61, 227, 181);
+    scale: 1.1;
+}

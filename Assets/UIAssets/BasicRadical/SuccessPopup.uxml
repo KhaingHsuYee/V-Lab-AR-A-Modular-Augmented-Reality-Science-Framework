@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements">
+    <Style src="ExperimentPopups.uss" />
+    <ui:VisualElement name="success-overlay" class="overlay">
+        <ui:VisualElement name="success-box" class="popup-box">
+            <ui:Label text="Experiment Successful!" class="title title-success" />
+            <ui:Label text="You have successfully reacted the sample with all 4 reagents. The unknown radical is confirmed as Lead (Pb++). Do you want to exit?" class="message" />
+            <ui:VisualElement class="button-container">
+                <ui:Button text="Stay in Lab" name="btn-stay-success" class="popup-btn" />
+                <ui:Button text="Exit" name="btn-exit-success" class="popup-btn success-btn" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

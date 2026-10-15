@@ -1,0 +1,185 @@
+.hud-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    picking-mode: ignore;
+}
+
+.bottom-bar {
+    position: absolute;
+    bottom: 20px;
+    left: 2%;
+    right: 110px; 
+    height: 40px;
+    background-color: rgba(30, 30, 30, 0.85); 
+    
+    /* THE FIX: Reduced from 25px (pill) to 12px (soft rectangle) */
+    border-radius: 12px; 
+    
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.2);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    picking-mode: ignore;
+}
+
+.status-label {
+    color: rgb(224, 242, 254);
+    font-size: 16px;
+    -unity-font-style: bold;
+}
+
+.right-toolbar {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    translate: 0 -50%;
+    width: 70px;
+    background-color: rgba(20, 25, 35, 0.65);
+    border-radius: 16px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.15);
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.icon-btn {
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border-width: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    transition-duration: 0.15s;
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(147, 197, 253);
+}
+
+.icon-btn:active {
+    scale: 0.85 0.85;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.icon-btn {
+    width: 45px;
+    height: 45px;
+    
+    /* THE FIX: Makes the inside of the button completely invisible */
+    background-color: transparent; 
+    
+    /* THE FIX: Removes the blue circle border (so just your icon shows) */
+    border-width: 0; 
+    
+    margin-top: 12px;
+    margin-bottom: 12px;
+    transition-duration: 0.15s;
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: #93c5fd;
+}
+
+.icon-btn:active {
+    scale: 0.85 0.85; 
+    -unity-background-image-tint-color: #ffffff; 
+}
+
+/* --- POP-UP OVERLAY SYSTEM --- */
+
+/* Dims the screen and blocks touches from hitting the AR world */
+/* Dims the screen and blocks touches from hitting the AR world and buttons */
+.popup-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85); /* Darker dimming effect to block clicks */
+    justify-content: center;
+    align-items: center;
+    picking-mode: auto; 
+}
+
+/* The Glass Pop-up Box - Now Larger */
+.popup-box {
+    width: 500px; /* Increased from 350px */
+    min-height: 250px; /* Forces the box to be taller */
+    background-color: rgba(20, 25, 35, 0.95);
+    border-radius: 16px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.15);
+    padding: 40px; /* Increased from 25px for more breathing room */
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.popup-title {
+    color: #93c5fd; /* Matches your icon tint */
+    font-size: 20px;
+    -unity-font-style: bold;
+    margin-bottom: 12px;
+}
+
+.popup-message {
+    color: #e2e8f0;
+    font-size: 14px;
+    white-space: normal;
+    -unity-text-align: middle-center;
+    margin-bottom: 25px;
+}
+
+.popup-button-container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Base button style */
+.popup-btn {
+    width: 47%;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 15px;
+    -unity-font-style: bold;
+    transition-duration: 0.15s;
+    border-width: 1px;
+}
+
+/* Cancel Button (Subtle Outline) */
+.popup-btn-secondary {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #e2e8f0;
+}
+.popup-btn-secondary:active {
+    background-color: rgba(255, 255, 255, 0.1);
+    scale: 0.95 0.95;
+}
+
+/* OK Button (Cyan Accent) */
+.popup-btn-primary {
+    background-color: rgba(147, 197, 253, 0.15);
+    border-color: #93c5fd;
+    color: #93c5fd;
+}
+.popup-btn-primary:active {
+    background-color: #93c5fd;
+    color: #1e293b; /* Dark text when tapped */
+    scale: 0.95 0.95;
+}
+.floating-add-button {
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+    width: 140px;
+    height: 55px;
+    background-color: rgba(147, 197, 253, 0.2);
+    border-color: #93c5fd;
+    border-width: 2px;
+    border-radius: 12px;
+    color: #93c5fd;
+    font-size: 18px;
+    -unity-font-style: bold;
+}

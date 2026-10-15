@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3a4e4f04121a67f4aa1d28199a1979c7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - raycastManager: {instanceID: 0}
+  - bunsenBurnerPrefab: {fileID: 4141686205193422373, guid: 9ab84b1c0ca09db4b972384f0b595603, type: 3}
+  - saltMenuUIDocument: {instanceID: 0}
+  - dropSoundClip: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

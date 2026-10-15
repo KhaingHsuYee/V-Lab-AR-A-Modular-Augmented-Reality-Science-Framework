@@ -1,0 +1,49 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElementsSchema.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/SaltMenuStyles.uss?fileID=7433441132597879392&amp;guid=965de9f6ca851c3448359d760b59da6f&amp;type=3#SaltMenuStyles"/>
+    <ui:VisualElement name="Salt_Menu_Panel" class="sidebar-panel">
+        <ui:Label text="SALT MENU" name="Header_Title" class="main-title"/>
+        <ui:Label text="SALT SELECTION" name="Header_Sub" class="sub-title"/>
+        <ui:ScrollView name="Scroll_View">
+            <ui:Button name="Btn_LiCl" class="salt-row-button">
+                <ui:VisualElement class="salt-thumbnail licl-thumb"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Lithium Chloride" class="salt-name"/>
+                    <ui:Label text="LiCl" class="salt-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="AR" class="ar-badge"/>
+            </ui:Button>
+            <ui:Button name="Btn_NaCl" class="salt-row-button">
+                <ui:VisualElement class="salt-thumbnail nacl-thumb"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Sodium Chloride" class="salt-name"/>
+                    <ui:Label text="NaCl" class="salt-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="AR" class="ar-badge"/>
+            </ui:Button>
+            <ui:Button name="Btn_CuCl2" class="salt-row-button">
+                <ui:VisualElement class="salt-thumbnail cucl2-thumb"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Copper (II) Chloride" class="salt-name"/>
+                    <ui:Label text="CuCl₂" class="salt-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="AR" class="ar-badge"/>
+            </ui:Button>
+            <ui:Button name="Btn_KCl" class="salt-row-button">
+                <ui:VisualElement class="salt-thumbnail kcl-thumb"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Potassium Chloride" class="salt-name"/>
+                    <ui:Label text="KCl" class="salt-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="AR" class="ar-badge"/>
+            </ui:Button>
+            <ui:Button name="Btn_Unknown" class="salt-row-button">
+                <ui:VisualElement class="salt-thumbnail unknown-thumb"/>
+                <ui:VisualElement class="text-container">
+                    <ui:Label text="Unknown Salt" class="salt-name"/>
+                    <ui:Label text="???" class="salt-formula"/>
+                </ui:VisualElement>
+                <ui:Label text="AR" class="ar-badge"/>
+            </ui:Button>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

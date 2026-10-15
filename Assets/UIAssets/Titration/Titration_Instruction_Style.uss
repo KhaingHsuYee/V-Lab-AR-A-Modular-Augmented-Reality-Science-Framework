@@ -1,0 +1,30 @@
+.dashboard-container {
+    width: 600px;
+    background-color: rgba(20, 25, 35, 0.9);
+    border-width: 2px;
+    border-color: #93c5fd;
+    border-radius: 16px;
+    padding: 25px;
+    justify-content: flex-start;
+}
+
+.dashboard-title {
+    color: #93c5fd;
+    font-size: 28px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-bottom: 10px;
+}
+
+.divider {
+    height: 2px;
+    background-color: rgba(147, 197, 253, 0.5);
+    margin-bottom: 20px;
+}
+
+.instruction-step {
+    color: #e2e8f0;
+    font-size: 18px;
+    margin-bottom: 15px;
+    white-space: normal;
+}

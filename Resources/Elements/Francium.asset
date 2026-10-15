@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Francium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Francium
+  symbol: Fr
+  atomicNumber: 87
+  atomicWeight: 223
+  category: alkali metal
+  protons: 87
+  neutrons: 136
+  electronShells: 02000000080000001200000020000000120000000800000001000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10
+    6p6 7s1
+  electronegativity: 0.79
+  atomicRadius: 348
+  ionizationEnergy: 4.07
+  phaseAtSTP: Solid
+  density: 1.87
+  meltingPoint: 300
+  boilingPoint: 950
+  discoveredBy: Marguerite Perey
+  description: Francium is a chemical element with symbol Fr and atomic number 87.
+    It used to be known as eka-caesium and actinium K. It is the second-least electronegative
+    element, behind only caesium. Francium is a highly radioactive metal that decays
+    into astatine, radium, and radon.

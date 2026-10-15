@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Cesium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Cesium
+  symbol: Cs
+  atomicNumber: 55
+  atomicWeight: 132.90546
+  category: alkali metal
+  protons: 55
+  neutrons: 78
+  electronShells: 020000000800000012000000120000000800000001000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s1
+  electronegativity: 0.79
+  atomicRadius: 265
+  ionizationEnergy: 3.89
+  phaseAtSTP: Solid
+  density: 1.93
+  meltingPoint: 301.7
+  boilingPoint: 944
+  discoveredBy: Robert Bunsen
+  description: "Caesium or cesium is a chemical element with symbol Cs and atomic
+    number 55. It is a soft, silvery-gold alkali metal with a melting point of 28
+    \xB0C (82 \xB0F), which makes it one of only five elemental metals that are liquid
+    at or near room temperature. Caesium is an alkali metal and has physical and
+    chemical properties similar to those of rubidium and potassium."

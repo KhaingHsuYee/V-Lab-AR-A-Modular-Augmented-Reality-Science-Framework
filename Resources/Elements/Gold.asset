@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Gold
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Gold
+  symbol: Au
+  atomicNumber: 79
+  atomicWeight: 196.96657
+  category: transition metal
+  protons: 79
+  neutrons: 118
+  electronShells: 020000000800000012000000200000001200000001000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s1 4f14 5d10
+  electronegativity: 2.54
+  atomicRadius: 144
+  ionizationEnergy: 9.22
+  phaseAtSTP: Solid
+  density: 19.3
+  meltingPoint: 1337.33
+  boilingPoint: 3243
+  discoveredBy: Middle East
+  description: Gold is a chemical element with symbol Au (from Latin:aurum) and atomic
+    number 79. In its purest form, it is a bright, slightly reddish yellow, dense,
+    soft, malleable and ductile metal. Chemically, gold is a transition metal and
+    a group 11 element.

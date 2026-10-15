@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Tellurium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Tellurium
+  symbol: Te
+  atomicNumber: 52
+  atomicWeight: 127.603
+  category: metalloid
+  protons: 52
+  neutrons: 76
+  electronShells: 0200000008000000120000001200000006000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p4
+  electronegativity: 2.1
+  atomicRadius: 140
+  ionizationEnergy: 9.01
+  phaseAtSTP: Solid
+  density: 6.24
+  meltingPoint: 722.66
+  boilingPoint: 1261
+  discoveredBy: "Franz-Joseph M\xFCller von Reichenstein"
+  description: Tellurium is a chemical element with symbol Te and atomic number 52.
+    It is a brittle, mildly toxic, rare, silver-white metalloid. Tellurium is chemically
+    related to selenium and sulfur.

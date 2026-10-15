@@ -1,0 +1,65 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="LabResultsStyle.uss" />
+
+    <ui:VisualElement name="results-overlay" class="results-overlay">
+        
+        <ui:VisualElement name="results-panel" class="results-panel">
+            <ui:Button text="X" name="btn-close-panel" class="btn-close" />
+            <ui:Label text="TABLE 1: VERIFICATION OF OHM'S LAW (R = 50 Ω)" class="table-title" />
+
+            <ui:VisualElement class="table-container">
+                <ui:VisualElement class="table-row header-row">
+                    <ui:Label text="Applied Voltage (V)" class="header-cell" />
+                    <ui:Label text="Current Passed I (mA)" class="header-cell" />
+                    <ui:Label text="Ratio V/I (kΩ)" class="header-cell" style="border-right-width: 0;" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="table-row">
+                    <ui:TextField name="row1-v" class="input-cell" />
+                    <ui:TextField name="row1-i" class="input-cell" />
+                    <ui:Label name="row1-ratio" text="-" class="output-cell" style="border-right-width: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement class="table-row">
+                    <ui:TextField name="row2-v" class="input-cell" />
+                    <ui:TextField name="row2-i" class="input-cell" />
+                    <ui:Label name="row2-ratio" text="-" class="output-cell" style="border-right-width: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement class="table-row">
+                    <ui:TextField name="row3-v" class="input-cell" />
+                    <ui:TextField name="row3-i" class="input-cell" />
+                    <ui:Label name="row3-ratio" text="-" class="output-cell" style="border-right-width: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement class="table-row">
+                    <ui:TextField name="row4-v" class="input-cell" />
+                    <ui:TextField name="row4-i" class="input-cell" />
+                    <ui:Label name="row4-ratio" text="-" class="output-cell" style="border-right-width: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement class="table-row">
+                    <ui:TextField name="row5-v" class="input-cell" />
+                    <ui:TextField name="row5-i" class="input-cell" />
+                    <ui:Label name="row5-ratio" text="-" class="output-cell" style="border-right-width: 0;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:Button text="GRADE EXPERIMENT" name="btn-grade" class="btn-submit" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="success-popup" style="display: none; position: absolute; width: 550px; background-color: rgb(15, 20, 30); border-radius: 10px; border-width: 2px; border-color: rgb(57, 255, 20); padding: 20px; align-items: center;">
+            <ui:Label text="EXPERIMENT SUCCESSFUL!" style="color: rgb(57, 255, 20); font-size: 22px; -unity-font-style: bold; margin-bottom: 10px;" />
+            <ui:Label text="Your data has been plotted. The linear V-I relationship confirms constant resistance." style="color: white; font-size: 14px; margin-bottom: 20px;" />
+            
+            <ui:VisualElement style="flex-direction: row; width: 100%; height: 250px; margin-bottom: 20px;">
+                <ui:Label text="I (mA)" style="color: rgb(150, 180, 200); -unity-text-align: middle-center; width: 20px; margin-right: 10px; font-size: 12px;" />
+                
+                <ui:VisualElement name="graph-container" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.05); border-left-width: 2px; border-bottom-width: 2px; border-color: rgb(150, 180, 200); position: relative; overflow: hidden;" />
+            </ui:VisualElement>
+            <ui:Label text="Voltage (V)" style="color: rgb(150, 180, 200); font-size: 12px; margin-bottom: 20px;" />
+
+            <ui:VisualElement style="flex-direction: row; justify-content: space-between; width: 100%;">
+                <ui:Button text="RESTART LAB" name="btn-restart-lab" style="flex-grow: 1; margin-right: 5px; height: 40px; background-color: rgb(100, 100, 100); color: white;" />
+                <ui:Button text="EXIT TO MENU" name="btn-exit-lab" style="flex-grow: 1; margin-left: 5px; height: 40px; background-color: rgb(200, 50, 50); color: white;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

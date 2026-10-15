@@ -1,0 +1,49 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="OutOfTubesPopup" src="project://database/Assets/Assets/UIAssets/BasicRadical/OutOfTubesPopup.uxml?fileID=9197481963319205126&amp;guid=ef9ad7e1d8ca6444588f78de40d434f6&amp;type=3#OutOfTubesPopup"/>
+    <ui:Template name="SuccessPopup" src="project://database/Assets/Assets/UIAssets/BasicRadical/SuccessPopup.uxml?fileID=9197481963319205126&amp;guid=9f3023933ee4b3c41ac2db8c194c7bf0&amp;type=3#SuccessPopup"/>
+    <Style src="project://database/Assets/Assets/UIAssets/MainHUD_Style.uss?fileID=7433441132597879392&amp;guid=d9f69b9144097d6418da446d46ad55d3&amp;type=3#MainHUD_Style"/>
+    <Style src="project://database/Assets/Assets/UIAssets/BasicRadical/ExperimentPopups.uss?fileID=7433441132597879392&amp;guid=f3ff08c6314a1fd4899bf83f16a3e562&amp;type=3#ExperimentPopups"/>
+    <ui:VisualElement name="hud-container" class="hud-container">
+        <ui:VisualElement class="bottom-bar">
+            <ui:Label name="status-text-left" text="Current Sample: Unknown (Pb++)" class="status-label"/>
+            <ui:Label name="status-text-right" text="Calibration: Stable." class="status-label"/>
+        </ui:VisualElement>
+        <ui:VisualElement class="right-toolbar">
+            <ui:Button name="btn-home" class="icon-btn" style="background-image: url(&quot;project://database/Assets/Space_Exploration_GUI_Kit/Picto_Icons/White/home-256.png?fileID=2800000&amp;guid=c0017e8c889fde94da2dc96ac8a2b133&amp;type=3#home-256&quot;);"/>
+            <ui:Button name="btn-reagent" class="icon-btn" style="background-image: url(&quot;project://database/Assets/Assets/icon/experiment_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png?fileID=2800000&amp;guid=a5cef3531a4fcc244901b886803cda73&amp;type=3#experiment_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24&quot;);"/>
+            <ui:Button name="btn-reset" class="icon-btn" style="background-image: url(&quot;project://database/Assets/Assets/icon/reset_colors_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png?fileID=2800000&amp;guid=e45396ea669d5b54bb056e49be673754&amp;type=3#reset_colors_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24&quot;);"/>
+            <ui:Button name="btn-help" class="icon-btn" style="display: none;background-image: url(&quot;project://database/Assets/Assets/icon/robot_2_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png?fileID=2800000&amp;guid=1033229efe3f47c4185c6c77dc5738cf&amp;type=3#robot_2_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24&quot;);"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="exit-popup-overlay" class="popup-overlay" style="display: none;">
+            <ui:VisualElement name="exit-popup-box" class="popup-box">
+                <ui:Label name="popup-title" text="Exit Experiment?" class="popup-title"/>
+                <ui:Label name="popup-message" text="Are you sure you want to stop the experiment?" class="popup-message"/>
+                <ui:VisualElement class="popup-button-container">
+                    <ui:Button name="btn-cancel-exit" text="Cancel" class="popup-btn popup-btn-secondary"/>
+                    <ui:Button name="btn-confirm-exit" text="OK" class="popup-btn popup-btn-primary"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Button name="btn-add" text="ADD" class="floating-add-button" style="display: none;"/>
+        <ui:VisualElement name="out-of-tubes-overlay" class="overlay" style="display: none; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.85); align-items: center; justify-content: center;">
+            <ui:VisualElement name="out-of-tubes-box" class="popup-box">
+                <ui:Label text="Out of Test Tubes!" class="title"/>
+                <ui:Label text="You have used all 6 test tubes without testing all 4 required reagents. Please restart." class="message"/>
+                <ui:VisualElement class="button-container">
+                    <ui:Button text="Restart" name="btn-restart-out" class="popup-btn"/>
+                    <ui:Button text="Exit" name="btn-exit-out" class="popup-btn primary-btn"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="success-overlay" class="overlay" style="display: none; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.85); align-items: center; justify-content: center;">
+            <ui:VisualElement name="success-box" class="popup-box">
+                <ui:Label text="Experiment Successful!" class="title title-success"/>
+                <ui:Label text="You have successfully reacted the sample with all 4 reagents. The unknown radical is confirmed as Lead (Pb++). Do you want to exit?" class="message"/>
+                <ui:VisualElement class="button-container">
+                    <ui:Button text="Stay in Lab" name="btn-stay-success" class="popup-btn"/>
+                    <ui:Button text="Exit" name="btn-exit-success" class="popup-btn success-btn"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

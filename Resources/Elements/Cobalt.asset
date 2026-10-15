@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Cobalt
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Cobalt
+  symbol: Co
+  atomicNumber: 27
+  atomicWeight: 58.933193
+  category: transition metal
+  protons: 27
+  neutrons: 32
+  electronShells: 02000000080000000f00000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d7
+  electronegativity: 1.88
+  atomicRadius: 125
+  ionizationEnergy: 7.88
+  phaseAtSTP: Solid
+  density: 8.9
+  meltingPoint: 1768
+  boilingPoint: 3200
+  discoveredBy: Georg Brandt
+  description: Cobalt is a chemical element with symbol Co and atomic number 27.
+    Like nickel, cobalt in the Earth's crust is found only in chemically combined
+    form, save for small deposits found in alloys of natural meteoric iron. The free
+    element, produced by reductive smelting, is a hard, lustrous, silver-gray metal.

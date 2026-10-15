@@ -1,0 +1,107 @@
+.sidebar-panel {
+    width: 400px;
+    height: 90%;
+    background-color: rgba(25, 25, 25, 0.75);
+    position: absolute;
+    left: 40px;
+    top: 5%;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.main-title {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+}
+
+.sub-title {
+    color: rgb(138, 138, 138);
+    font-size: 13px;
+    margin-bottom: 20px;
+    -unity-font-style: bold;
+}
+
+.salt-row-button {
+    height: 75px;
+    background-color: rgba(40, 40, 40, 0.3);
+    border-radius: 12px;
+    margin-bottom: 10px;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+.salt-row-button > * {
+    pointer-events: none;
+}
+
+.text-container {
+    flex-grow: 1;
+    margin-left: 15px;
+    justify-content: center;
+}
+
+.salt-name {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    -unity-font-style: bold;
+}
+
+.salt-formula {
+    color: rgb(138, 138, 138);
+    font-size: 12px;
+}
+
+.salt-thumbnail {
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: rgb(85, 85, 85);
+}
+
+.licl-thumb {
+    background-image: url("project://database/Assets/Assets/UIAssets/images/LiCL.png?fileID=2800000&guid=5e161a6855d86a843a1052f16490e707&type=3#LiCL");
+}
+
+.nacl-thumb {
+    background-image: url("project://database/Assets/Assets/UIAssets/images/NaCl.png?fileID=2800000&guid=bd668582750adbf47841b499c68fbedc&type=3#NaCl");
+}
+
+.cucl2-thumb {
+    background-image: url("project://database/Assets/Assets/UIAssets/images/CuCl2.png?fileID=2800000&guid=91db79924c246c741afbfdda0629f767&type=3#CuCl2");
+}
+
+.kcl-thumb {
+    background-color: rgb(150, 150, 150);
+    background-image: url("project://database/Assets/Assets/UIAssets/images/KCl.png?fileID=2800000&guid=ed1ec40e49e830041b5c93536d082a2b&type=3#KCl");
+}
+
+.unknown-thumb {
+    background-color: rgb(100, 100, 100);
+}
+
+.ar-badge {
+    color: rgb(102, 102, 102);
+    font-size: 11px;
+    -unity-font-style: bold;
+    border-width: 1px;
+    border-color: rgb(68, 68, 68);
+    border-radius: 12px;
+    padding: 4px 6px;
+    margin-right: 5px;
+}
+
+.active-selection {
+    border-width: 2px;
+    border-color: rgb(61, 227, 181);
+    background-color: rgba(61, 227, 181, 0.1);
+}
+
+.active-selection .ar-badge {
+    color: rgb(61, 227, 181);
+    border-color: rgb(61, 227, 181);
+}

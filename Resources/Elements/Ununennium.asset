@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Ununennium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Ununennium
+  symbol: Uue
+  atomicNumber: 119
+  atomicWeight: 315
+  category: unknown, but predicted to be an alkali metal
+  protons: 119
+  neutrons: 196
+  electronShells: 0200000008000000120000002000000020000000120000000800000001000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10
+    6p6 7s2 5f14 6d10 7p6 8s1
+  electronegativity: 0
+  atomicRadius: 240
+  ionizationEnergy: 4.53
+  phaseAtSTP: Solid
+  density: 3
+  meltingPoint: 0
+  boilingPoint: 630
+  discoveredBy: GSI Helmholtz Centre for Heavy Ion Research
+  description: Ununennium, also known as eka-francium or simply element 119, is the
+    hypothetical chemical element with symbol Uue and atomic number 119. Ununennium
+    and Uue are the temporary systematic IUPAC name and symbol respectively, until
+    a permanent name is decided upon. In the periodic table of the elements, it is
+    expected to be an s-block element, an alkali metal, and the first element in
+    the eighth period.

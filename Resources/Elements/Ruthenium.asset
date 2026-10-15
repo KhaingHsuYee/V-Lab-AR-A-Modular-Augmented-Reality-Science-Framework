@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Ruthenium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Ruthenium
+  symbol: Ru
+  atomicNumber: 44
+  atomicWeight: 101.072
+  category: transition metal
+  protons: 44
+  neutrons: 57
+  electronShells: 0200000008000000120000000f00000001000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d7
+  electronegativity: 2.2
+  atomicRadius: 130
+  ionizationEnergy: 7.36
+  phaseAtSTP: Solid
+  density: 12.45
+  meltingPoint: 2607
+  boilingPoint: 4423
+  discoveredBy: Karl Ernst Claus
+  description: Ruthenium is a chemical element with symbol Ru and atomic number 44.
+    It is a rare transition metal belonging to the platinum group of the periodic
+    table. Like the other metals of the platinum group, ruthenium is inert to most
+    other chemicals.

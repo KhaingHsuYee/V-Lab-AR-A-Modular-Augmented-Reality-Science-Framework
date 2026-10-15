@@ -1,0 +1,220 @@
+.bottom-sheet-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.pill-button {
+    position: absolute;
+    bottom: 40px;
+    background-color: rgba(10, 20, 35, 0.9);
+    color: #00e5ff;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-width: 1px;
+    border-color: rgba(0, 229, 255, 0.5);
+    transition-duration: 0.2s;
+    -unity-text-align: middle-center;
+}
+
+.pill-button:active {
+    background-color: rgba(0, 229, 255, 0.3);
+    scale: 0.95;
+}
+
+.bottom-sheet-panel {
+    background-color: rgba(5, 10, 20, 0.85);
+    width: 90%;
+    max-width: 600px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    border-width: 1px;
+    border-color: rgba(0, 229, 255, 0.3);
+    translate: 0 150%; 
+}
+
+.sheet-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.sheet-title {
+    color: white;
+    font-size: 22px;
+    -unity-text-align: middle-center;
+    letter-spacing: 2px;
+}
+
+.back-btn {
+    position: absolute;
+    left: 0;
+    background-color: transparent;
+    color: #00e5ff;
+    border-width: 0;
+    font-size: 16px;
+}
+
+.view-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.category-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    width: 45%;
+    height: 80px;
+    margin: 5px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.1);
+    -unity-text-align: middle-center;
+    font-size: 16px;
+    transition-duration: 0.2s;
+}
+
+.category-card:active {
+    background-color: rgba(0, 229, 255, 0.2);
+    border-color: #00e5ff;
+}
+
+.item-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: rgba(0, 229, 255, 0.4);
+    -unity-text-align: middle-center;
+    font-size: 14px;
+    white-space: normal;
+}
+
+.item-card:active {
+    background-color: rgba(0, 229, 255, 0.4);
+}
+
+/* --- LEGEND PANEL LAYOUT --- */
+
+.legend-panel {
+    position: absolute;
+    top: 50%;
+    left: 20px; 
+    translate: 0 -50%;
+    background-color: rgba(10, 20, 35, 0.9);
+    border-color: rgba(0, 229, 255, 0.5);
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 15px;
+    display: none; 
+}
+
+.legend-title {
+    color: #00e5ff;
+    font-size: 18px;
+    -unity-font-style: bold;
+    margin-bottom: 10px;
+    -unity-text-align: middle-center;
+}
+
+.legend-row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.legend-text {
+    color: white;
+    font-size: 14px;
+}
+
+/* --- COLOR DOTS (CPK Standard) --- */
+.color-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.dot-carbon   { background-color: #808080; } 
+.dot-hydrogen { background-color: #FFFFFF; } 
+.dot-oxygen   { background-color: #FF0000; } 
+.dot-nitrogen { background-color: #0000FF; } 
+.dot-sulfur   { background-color: #FFFF00; } 
+.dot-chlorine { background-color: #00FF00; }
+
+/* --- INFO PANEL LAYOUT --- */
+.info-panel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 320px;
+    background-color: rgba(10, 20, 35, 0.95);
+    border-color: rgba(0, 229, 255, 0.5);
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 20px;
+    display: none; /* Hidden until a model is chosen */
+}
+
+.info-title {
+    color: #00e5ff;
+    font-size: 24px;
+    -unity-font-style: bold;
+    margin-bottom: 2px;
+}
+
+.info-formula {
+    color: #ffeb3b;
+    font-size: 16px;
+    margin-bottom: 12px;
+    -unity-font-style: italic;
+}
+
+.info-desc {
+    color: white;
+    font-size: 14px;
+    white-space: normal;
+    margin-bottom: 15px;
+}
+
+.info-stats {
+    color: #a0a0a0;
+    font-size: 12px;
+    white-space: normal;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.3);
+    -unity-font-style: bold;
+    transition-duration: 0.2s;
+}
+
+.close-btn:active {
+    background-color: rgba(255, 0, 0, 0.5);
+}

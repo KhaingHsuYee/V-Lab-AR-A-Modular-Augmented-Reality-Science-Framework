@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Aluminium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Aluminium
+  symbol: Al
+  atomicNumber: 13
+  atomicWeight: 26.981539
+  category: post-transition metal
+  protons: 13
+  neutrons: 14
+  electronShells: 020000000800000003000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p1
+  electronegativity: 1.61
+  atomicRadius: 143
+  ionizationEnergy: 5.98
+  phaseAtSTP: Solid
+  density: 2.7
+  meltingPoint: 933.47
+  boilingPoint: 2743
+  discoveredBy: "Hans Christian \xD8rsted"
+  description: Aluminium (or aluminum; see different endings) is a chemical element
+    in the boron group with symbol Al and atomic number 13. It is a silvery-white,
+    soft, nonmagnetic, ductile metal. Aluminium is the third most abundant element
+    (after oxygen and silicon), and the most abundant metal, in the Earth's crust.

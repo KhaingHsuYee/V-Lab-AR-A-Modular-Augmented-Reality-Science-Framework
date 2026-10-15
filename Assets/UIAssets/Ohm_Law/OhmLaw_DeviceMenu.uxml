@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <!-- Make sure to link your actual USS file path here -->
+    <Style src="OhmLaw_DeviceMenu.uss"/>
+    
+    <!-- We wrap the whole screen to easily pin the menu to the bottom -->
+    <ui:VisualElement class="full-screen-wrapper">
+        
+        <ui:VisualElement name="device-menu-container" class="bottom-menu-panel">
+            <ui:Label text="SELECT DEVICE TO PLACE" class="menu-title" />
+            
+            <ui:VisualElement class="button-row">
+                <ui:Button text="Power Supply" name="btn-power" class="device-button" />
+                <ui:Button text="Ammeter" name="btn-ammeter" class="device-button" />
+                <ui:Button text="Voltmeter" name="btn-voltmeter" class="device-button" />
+                <ui:Button text="Resistor" name="btn-resistor" class="device-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        
+    </ui:VisualElement>
+</ui:UXML>

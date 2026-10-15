@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Holmium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Holmium
+  symbol: Ho
+  atomicNumber: 67
+  atomicWeight: 164.93033
+  category: lanthanide
+  protons: 67
+  neutrons: 98
+  electronShells: 0200000008000000120000001d0000000800000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f11
+  electronegativity: 1.23
+  atomicRadius: 176
+  ionizationEnergy: 6.02
+  phaseAtSTP: Solid
+  density: 8.79
+  meltingPoint: 1734
+  boilingPoint: 2873
+  discoveredBy: Marc Delafontaine
+  description: Holmium is a chemical element with symbol Ho and atomic number 67.
+    Part of the lanthanide series, holmium is a rare earth element. Holmium was discovered
+    by Swedish chemist Per Theodor Cleve.

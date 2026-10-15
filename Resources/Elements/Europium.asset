@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Europium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Europium
+  symbol: Eu
+  atomicNumber: 63
+  atomicWeight: 151.9641
+  category: lanthanide
+  protons: 63
+  neutrons: 89
+  electronShells: 020000000800000012000000190000000800000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f7
+  electronegativity: 1.2
+  atomicRadius: 199
+  ionizationEnergy: 5.67
+  phaseAtSTP: Solid
+  density: 5.264
+  meltingPoint: 1099
+  boilingPoint: 1802
+  discoveredBy: "Eug\xE8ne-Anatole Demar\xE7ay"
+  description: Europium is a chemical element with symbol Eu and atomic number 63.
+    It was isolated in 1901 and is named after the continent of Europe. It is a moderately
+    hard, silvery metal which readily oxidizes in air and water.

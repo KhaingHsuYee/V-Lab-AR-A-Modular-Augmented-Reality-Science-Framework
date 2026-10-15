@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="MainContainer" class="instrument-panel">
+        <ui:Label text="LABORATORY SPECTRAL ANALYSIS" class="system-header" />
+        
+        <ui:VisualElement class="grid-layout">
+            <ui:VisualElement class="left-col">
+                <ui:Label text="ATOMIC STRUCTURE" class="label-header" />
+                <ui:Label name="AtomicData" text="-- protons | -- neutrons" class="data-text" />
+            </ui:VisualElement>
+            
+            <ui:VisualElement class="right-col">
+                <ui:Label text="FLAME EMISSION SPECTRUM" class="label-header" />
+                <ui:VisualElement name="GraphContainer" class="graph-box" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement class="footer">
+            <ui:Label name="Title" text="Sample: --" class="footer-title" />
+            <ui:Label name="Metrics" text="λ: -- | E: -- | Trans: --" class="footer-metrics" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

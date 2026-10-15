@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 50ml_beaker_mat
+  m_Shader: {fileID: 4800000, guid: 36f486abd1cddcb459278fb45967f8db, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _UPAXIS_Z_UP
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _FillLevel: 1
+    - _LiquidDensity: 0.1
+    - _LocalMax: 5.86
+    - _LocalMin: 2.08
+    - _RefractionStrength: 0
+    - _UpAxis: 1
+    - _WobbleAmplitude: 0
+    - _WobbleSpeed: 3.99
+    - _WobbleX: -4.7954024e-12
+    - _WobbleZ: -4.70284e-12
+    m_Colors:
+    - _LiquidColor: {r: 0.91224635, g: 0.93179137, b: 0.9433962, a: 0.8}
+    - _ShallowColor: {r: 0.8710446, g: 0.8678355, b: 0.9245283, a: 0.6156863}
+    - _SurfaceColor: {r: 0.19272874, g: 0.19215687, b: 0.5754717, a: 0.99215686}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

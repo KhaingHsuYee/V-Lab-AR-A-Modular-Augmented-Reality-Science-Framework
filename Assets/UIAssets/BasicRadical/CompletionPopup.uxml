@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/BasicRadical/CompletionPopup.uss?fileID=7433441132597879392&amp;guid=9361aeda250482a4482d60d7b29a3f5c&amp;type=3#CompletionPopup"/>
+    <ui:VisualElement name="completion-overlay" class="overlay" style="display: none;">
+        <ui:VisualElement name="completion-box" class="popup-box">
+            <ui:Label text="No Clean Test Tubes Left!" name="completion-title" class="title"/>
+            <ui:Label text="You have used all 6 test tubes. What would you like to do next?" name="completion-message" class="message"/>
+            <ui:VisualElement class="button-container">
+                <ui:Button text="Restart" name="btn-restart-experiment" class="popup-btn"/>
+                <ui:Button text="Exit" name="btn-exit-experiment" class="popup-btn primary-btn"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/Demonstration/Dashboard_Style.uss?fileID=7433441132597879392&amp;guid=541a6cbfa006dc346b50575ba76db11b&amp;type=3#Dashboard_Style"/>
+    <ui:VisualElement name="dashboard-root" class="dashboard-root">
+        <ui:Label text="Interactive Element Explorer" class="header-title"/>
+        <ui:VisualElement class="search-container">
+            <ui:TextField name="search-input" value="" class="search-input"/>
+            <ui:Button name="btn-search" text="Search" class="search-btn"/>
+        </ui:VisualElement>
+        <ui:VisualElement class="main-content">
+            <ui:ScrollView name="legend-scroll" vertical-scroller-visibility="Auto" class="legend-scroll">
+                <ui:Button name="btn-group-alkali" text="Alkali Metals" class="legend-btn color-alkali"/>
+                <ui:Button name="btn-group-transition" text="Transition Metals" class="legend-btn color-transition"/>
+                <ui:Button name="btn-group-halogen" text="Halogens" class="legend-btn color-halogen"/>
+                <ui:Button name="btn-group-noble" text="Noble Gases" class="legend-btn color-noble"/>
+                <ui:Button name="btn-group-lanthanide" text="Lanthanides" class="legend-btn color-lanthanide"/>
+                <ui:Button name="btn-group-actinide" text="Actinides" class="legend-btn color-actinide"/>
+                <ui:Button name="btn-group-nonmetal" text="Nonmetals" class="legend-btn color-nonmetal"/>
+            </ui:ScrollView>
+            <ui:VisualElement name="data-panel" class="data-panel">
+                <ui:Label name="txt-element-name" text="Copper (Cu)" class="data-title"/>
+                <ui:Label name="txt-element-subtitle" text="Atomic No. 29 | Transition Metal" class="data-subtitle"/>
+                <ui:Label text="Key Fact" class="data-label-header"/>
+                <ui:Label name="txt-fact" text="Excellent conductor of heat and electricity, widely used in electronics." class="data-value"/>
+                <ui:Label text="History" class="data-label-header"/>
+                <ui:Label name="txt-history" text="Used by humans for over 10,000 years; crucial to the Bronze Age." class="data-value"/>
+                <ui:Label text="Appearance" class="data-label-header"/>
+                <ui:Label name="txt-appearance" text="Red-orange metallic" class="data-value"/>
+                <ui:Label text="State of Matter" class="data-label-header"/>
+                <ui:Label name="txt-state" text="Solid" class="data-value"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

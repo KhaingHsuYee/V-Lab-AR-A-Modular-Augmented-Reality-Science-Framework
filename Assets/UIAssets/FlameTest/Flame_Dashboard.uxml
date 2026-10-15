@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/FlameTest/Flame_Dashboard.uss?fileID=7433441132597879392&amp;guid=b1d4b5aa1212bf14a87fc032b5efb218&amp;type=3#Flame_Dashboard"/>
+    <ui:VisualElement name="MainWrapper" class="dashboard-wrapper">
+        <ui:VisualElement name="SlidingContainer" class="sliding-container">
+            <ui:VisualElement name="Page_Instructions" class="page-panel">
+                <ui:Label text="Flame Test Analysis" class="header-title"/>
+                <ui:VisualElement class="instruction-block">
+                    <ui:Label text="1. The Known Elements" class="instruction-heading"/>
+                    <ui:Label text="Ignite the Bunsen burner and carefully test each of the four known reagent salts. Observe how the intense heat excites the metal ions, causing them to emit brilliant, characteristic colors." class="instruction-text"/>
+                    <ui:Label text="2. Spectral Analysis" class="instruction-heading"/>
+                    <ui:Label text="As each salt burns, swipe left to dive into its atomic properties. Analyze the photon energy, wavelength, and live spectral emission graph." class="instruction-text"/>
+                    <ui:Label text="3. The Unknown Challenge" class="instruction-heading"/>
+                    <ui:Label text="Once you have mastered the known flames, select the Unknown Salt from the menu. Observe its fiery hue carefully and compare it to your previous findings." class="instruction-text"/>
+                    <ui:Label text="4. Make Your Deduction" class="instruction-heading"/>
+                    <ui:Label text="Type the name of the metal you believe is hidden within the unknown sample to complete the experiment!" class="instruction-text"/>
+                </ui:VisualElement>
+                <ui:Label text="Swipe Left for Spectral Data ➔" class="swipe-hint"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="Page_Reaction" class="page-panel">
+                <ui:Label name="Title" text="Waiting for Sample..." class="header-title"/>
+                <ui:Label name="AtomicData" text="Protons: -- | Neutrons: --" class="body-text"/>
+                <ui:Label name="Metrics" text="λ: -- nm | E: -- eV | Trans: --" class="metrics-text"/>
+                <ui:VisualElement class="graph-bg">
+                    <ui:VisualElement name="GraphContainer" class="graph-container"/>
+                </ui:VisualElement>
+                <ui:Label text="⬅ Swipe Right for Instructions" class="swipe-hint"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

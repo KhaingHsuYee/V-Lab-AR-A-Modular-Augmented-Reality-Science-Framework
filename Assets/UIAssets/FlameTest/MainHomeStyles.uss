@@ -1,0 +1,267 @@
+.main-container {
+    flex-grow: 1;
+    flex-direction: row;
+    background-color: rgb(15, 20, 30);
+    width: 100%;
+    height: 100%;
+    background-image: url("project://database/Assets/Assets/Images/lab_bg_1.jpg?fileID=2800000&guid=c54f1a24247a77149992bfa5187b528a&type=3#lab_bg_1");
+}
+
+.exit-btn {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    z-index: 10;
+    width: 55px;
+    height: 55px;
+    border-radius: 27px;
+    /* Dark frosted glass instead of aggressive red */
+    background-color: rgba(20, 25, 35, 0.8);
+    border-color: rgba(255, 80, 80, 0.3);
+    border-width: 2px;
+    transition-duration: 0.3s;
+    background-image: url("project://database/Assets/Space_Exploration_GUI_Kit/Picto_Icons/Light_Purple/power-32.png?fileID=2800000&guid=c995154a14a66f8468de75837de54a8b&type=3#power-32");
+    -unity-background-image-tint-color: rgb(255, 80, 80);
+}
+
+.exit-btn:hover {
+    background-color: rgb(224, 45, 45);
+    border-color: rgb(255, 150, 150);
+    scale: 1.1;
+    rotate: 90deg; /* Adds a mechanical lock animation */
+    -unity-background-image-tint-color: white;
+}
+.left-container {
+    width: 45%;
+    height: 100%;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.left-panel {
+    background-color: rgba(5, 10, 15, 0.7);
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    margin-right: 20px;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-out-back;
+}
+
+/* Enhanced Title */
+.brand-title {
+    font-size: 85px;
+    color: rgb(210, 255, 255); /* Icy white-blue */
+    -unity-font-style: bold;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+    text-shadow: 0 0 20px rgba(61, 227, 181, 0.8);
+    transition-duration: 1s;
+}
+
+.brand-title-pulse {
+    text-shadow: 0 0 40px rgba(61, 227, 181, 1);
+    scale: 1.02;
+    color: white;
+}
+/* Enhanced Subtitle */
+.brand-subtitle {
+    font-size: 22px;
+    color: rgb(255, 180, 220); /* Neon pink accent */
+    -unity-font-style: bold-and-italic;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+    background-color: rgba(200, 100, 255, 0.15);
+    padding: 15px 30px;
+    border-radius: 15px;
+    border-left-width: 5px;
+    border-left-color: rgb(200, 100, 255);
+    text-shadow: 0 0 10px rgba(200, 100, 255, 0.5);
+}
+
+/* --- REDESIGNED: Info Button (Top Right) --- */
+.info-btn {
+    position: absolute;
+    top: 35px;
+    right: 110px; 
+    z-index: 10;
+    width: 55px;
+    height: 55px;
+    border-radius: 27px; /* Perfect circle */
+    background-color: rgba(20, 25, 35, 0.8); /* Dark frosted glass */
+    border-color: rgba(255, 255, 255, 0.3); /* Subtle white border */
+    border-width: 2px;
+    transition-duration: 0.3s;
+    
+    color: white;
+    font-size: 26px;
+    -unity-font-style: bold-and-italic; /* Classic info icon look */
+    -unity-text-align: middle-center;
+    padding: 0;
+    padding-bottom: 2px; /* Optically centers the text */
+}
+
+.info-btn:hover {
+    background-color: rgb(100, 200, 255); /* Bright blue on hover */
+    border-color: white;
+    scale: 1.1;
+    color: rgb(15, 20, 30); /* Dark text on hover for contrast */
+}
+/* --- NEW: About Us Button (Left Panel) --- */
+.about-btn {
+    width: 160px;
+    height: 45px;
+    background-color: rgba(200, 100, 255, 0.15);
+    border-color: rgb(200, 100, 255);
+    border-width: 2px;
+    border-radius: 22px;
+    color: white;
+    font-size: 16px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+    transition-duration: 0.2s;
+    margin-top: -20px; /* Pulls it slightly closer to the subtitle */
+}
+
+.about-btn:hover {
+    background-color: rgb(200, 100, 255);
+    color: rgb(15, 20, 30);
+    scale: 1.05;
+}
+/* .about-btn {
+    width: 180px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 2px;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+    transition-duration: 0.2s;
+}
+
+.about-btn:hover {
+    background-color: white;
+    color: black;
+    scale: 1.05;
+} */
+
+.right-panel {
+    width: 55%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass-card {
+    width: 280px;
+    height: 400px;
+    background-color: rgba(20, 25, 35, 0.85);
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.1);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out-bounce;
+}
+
+.glass-card:hover {
+    scale: 1.05;
+    background-color: rgba(25, 35, 50, 0.95);
+    translate: 0 -10px;
+}
+
+.icon-circle {
+    width: 120px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    transition-duration: 0.3s;
+}
+
+.emoji-icon {
+    font-size: 65px;
+    transition-duration: 0.3s;
+}
+
+.glass-card:hover .emoji-icon {
+    scale: 1.2;
+}
+
+.card-title {
+    color: white;
+    font-size: 28px;
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    flex-grow: 1;
+}
+
+.enter-btn {
+    width: 90%;
+    height: 55px;
+    border-radius: 27px;
+    border-width: 0;
+    color: rgb(15, 20, 30);
+    font-size: 18px;
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+    transition-duration: 0.2s;
+}
+
+.enter-btn:hover {
+    scale: 1.08;
+    color: white;
+}
+
+.glass-card.border-cyan:hover {
+    border-color: rgb(61, 227, 181);
+    box-shadow: 0 0 20px rgba(61, 227, 181, 0.2);
+}
+
+.bg-cyan {
+    background-color: rgb(61, 227, 181);
+}
+
+.glass-card.border-cyan:hover .icon-circle {
+    background-color: rgba(61, 227, 181, 0.15);
+}
+
+.glass-card.border-purple:hover {
+    border-color: rgb(180, 100, 255);
+    box-shadow: 0 0 20px rgba(180, 100, 255, 0.2);
+}
+
+.bg-purple {
+    background-color: rgb(180, 100, 255);
+}
+
+.glass-card.border-purple:hover .icon-circle {
+    background-color: rgba(180, 100, 255, 0.15);
+}
+
+.hidden-start-left {
+    translate: -150px 0;
+    opacity: 0;
+}
+
+.hidden-start-right {
+    translate: 150px 0;
+    opacity: 0;
+}
+
+.hidden-start-top {
+    translate: 0 -100px;
+    opacity: 0;
+}

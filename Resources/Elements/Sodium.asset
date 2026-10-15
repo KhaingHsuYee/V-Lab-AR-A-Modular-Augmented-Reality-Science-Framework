@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Sodium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Sodium
+  symbol: Na
+  atomicNumber: 11
+  atomicWeight: 22.989769
+  category: alkali metal
+  protons: 11
+  neutrons: 12
+  electronShells: 020000000800000001000000
+  electronConfiguration: 1s2 2s2 2p6 3s1
+  electronegativity: 0.93
+  atomicRadius: 227
+  ionizationEnergy: 5.14
+  phaseAtSTP: Solid
+  density: 0.968
+  meltingPoint: 370.944
+  boilingPoint: 1156.09
+  discoveredBy: Humphry Davy
+  description: "Sodium /\u02C8so\u028Adi\u0259m/ is a chemical element with symbol
+    Na (from Ancient Greek \u039D\u03AC\u03C4\u03C1\u03B9\u03BF) and atomic number
+    11. It is a soft, silver-white, highly reactive metal. In the Periodic table
+    it is in column 1 (alkali metals), and shares with the other six elements in
+    that column that it has a single electron in its outer shell, which it readily
+    donates, creating a positively charged atom - a cation."

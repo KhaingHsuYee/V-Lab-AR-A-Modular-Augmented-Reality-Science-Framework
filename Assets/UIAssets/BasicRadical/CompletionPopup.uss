@@ -1,0 +1,69 @@
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85); /* 85% opacity black creates the dark backdrop */
+    align-items: center;
+    justify-content: center;
+    display: none; /* Hidden by default */
+}
+
+.popup-box {
+    background-color: rgb(26, 32, 44);
+    border-radius: 12px;
+    padding: 24px;
+    width: 400px;
+    border-color: rgb(60, 75, 95);
+    border-width: 1px;
+    align-items: center;
+}
+
+.title {
+    color: rgb(160, 200, 255);
+    font-size: 20px;
+    -unity-font-style: bold;
+    margin-bottom: 12px;
+}
+
+.message {
+    color: white;
+    font-size: 14px;
+    white-space: normal;
+    -unity-text-align: middle-center;
+    margin-bottom: 24px;
+}
+
+.button-container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.popup-btn {
+    flex: 1;
+    margin: 0 8px;
+    padding: 10px;
+    background-color: transparent;
+    border-color: rgb(160, 200, 255);
+    border-width: 1px;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    -unity-font-style: bold;
+    transition-duration: 0.2s;
+}
+
+.popup-btn:hover {
+    background-color: rgba(160, 200, 255, 0.2);
+}
+
+.primary-btn {
+    background-color: rgb(160, 200, 255);
+    color: rgb(26, 32, 44);
+}
+
+.primary-btn:hover {
+    background-color: rgb(200, 230, 255);
+}

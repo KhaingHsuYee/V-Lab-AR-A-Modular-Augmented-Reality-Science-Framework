@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Erbium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Erbium
+  symbol: Er
+  atomicNumber: 68
+  atomicWeight: 167.2593
+  category: lanthanide
+  protons: 68
+  neutrons: 99
+  electronShells: 0200000008000000120000001e0000000800000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f12
+  electronegativity: 1.24
+  atomicRadius: 176
+  ionizationEnergy: 6.11
+  phaseAtSTP: Solid
+  density: 9.066
+  meltingPoint: 1802
+  boilingPoint: 3141
+  discoveredBy: Carl Gustaf Mosander
+  description: Erbium is a chemical element in the lanthanide series, with symbol
+    Er and atomic number 68. A silvery-white solid metal when artificially isolated,
+    natural erbium is always found in chemical combination with other elements on
+    Earth. As such, it is a rare earth element which is associated with several other
+    rare elements in the mineral gadolinite from Ytterby in Sweden, where yttrium,
+    ytterbium, and terbium were discovered.

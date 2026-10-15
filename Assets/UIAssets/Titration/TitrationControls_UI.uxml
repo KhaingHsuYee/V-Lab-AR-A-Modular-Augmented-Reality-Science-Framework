@@ -1,0 +1,48 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    
+    <Style src="TitrationControls_Style.uss" />
+
+    <!-- NEW: TOP DATA DASHBOARD -->
+    <ui:VisualElement class="info-dashboard">
+        
+        <!-- Section 1: Equation -->
+        <ui:VisualElement class="info-section">
+            <ui:Label text="REACTION EQUATION" class="info-header" />
+            <ui:Label text="HCl(aq) + NaOH(aq) &#8594; NaCl(aq) + H&lt;sub&gt;2&lt;/sub&gt;O(l)" enable-rich-text="true" class="info-text equation-text" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="vertical-divider" />
+
+        <!-- Section 2: Experiment Data -->
+        <ui:VisualElement class="info-section">
+            <ui:Label text="EXPERIMENT DATA" class="info-header" />
+            <ui:Label text="Flask: 10.0 mL of 0.10 M NaOH" class="info-text data-base" />
+            <ui:Label text="Burette: Unknown [M] HCl" class="info-text data-acid" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="vertical-divider" />
+
+        <!-- Section 3: Indicator Key -->
+        <ui:VisualElement class="info-section">
+            <ui:Label text="METHYL ORANGE KEY" class="info-header" />
+            <ui:Label text="Yellow (Basic) : pH &gt; 4.4" class="info-text color-yellow" />
+            <ui:Label text="Red (Acidic) : pH &lt; 3.1" class="info-text color-red" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+
+    <!-- EXISTING UI STRUCTURE (Unchanged) -->
+    <ui:VisualElement class="titration-panel">
+        <ui:Label text="BURETTE" class="panel-header" />
+        <ui:VisualElement class="readout-box">
+            <ui:Label name="volume-text" text="0.00" class="volume-label" />
+            <ui:Label text="mL DISPENSED" class="unit-label" />
+        </ui:VisualElement>
+        <ui:VisualElement class="slider-container">
+            <ui:Slider name="burette-slider" direction="Vertical" low-value="0" high-value="1" />
+        </ui:VisualElement>
+        <ui:Label name="valve-status-text" text="VALVE CLOSED" class="valve-status" />
+        <ui:Button name="btn-reset-burette" text="RESET BURETTE" class="reset-burette-btn" />
+    </ui:VisualElement>
+
+</ui:UXML>

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Fluorine
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Fluorine
+  symbol: F
+  atomicNumber: 9
+  atomicWeight: 18.998404
+  category: diatomic nonmetal
+  protons: 9
+  neutrons: 10
+  electronShells: 0200000007000000
+  electronConfiguration: 1s2 2s2 2p5
+  electronegativity: 3.98
+  atomicRadius: 50
+  ionizationEnergy: 17.42
+  phaseAtSTP: Gas
+  density: 1.696
+  meltingPoint: 53.48
+  boilingPoint: 85.03
+  discoveredBy: "Andr\xE9-Marie Amp\xE8re"
+  description: Fluorine is a chemical element with symbol F and atomic number 9.
+    It is the lightest halogen and exists as a highly toxic pale yellow diatomic
+    gas at standard conditions. As the most electronegative element, it is extremely
+    reactive:almost all other elements, including some noble gases, form compounds
+    with fluorine.

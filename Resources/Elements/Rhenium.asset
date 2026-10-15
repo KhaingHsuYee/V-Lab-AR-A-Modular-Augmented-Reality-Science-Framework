@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Rhenium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Rhenium
+  symbol: Re
+  atomicNumber: 75
+  atomicWeight: 186.2071
+  category: transition metal
+  protons: 75
+  neutrons: 111
+  electronShells: 020000000800000012000000200000000d00000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d5
+  electronegativity: 1.9
+  atomicRadius: 137
+  ionizationEnergy: 7.83
+  phaseAtSTP: Solid
+  density: 21.02
+  meltingPoint: 3459
+  boilingPoint: 5869
+  discoveredBy: Masataka Ogawa
+  description: Rhenium is a chemical element with symbol Re and atomic number 75.
+    It is a silvery-white, heavy, third-row transition metal in group 7 of the periodic
+    table. With an estimated average concentration of 1 part per billion (ppb), rhenium
+    is one of the rarest elements in the Earth's crust.

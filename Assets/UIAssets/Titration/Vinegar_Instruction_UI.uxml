@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Titration_Instruction_Style.uss" />
+    <ui:VisualElement class="dashboard-container">
+        <ui:Label text="VINEGAR TITRATION PROCEDURE" class="dashboard-title" />
+        <ui:VisualElement class="divider" />
+        
+        <ui:Label text="1. Ensure 10 mL of standard NaOH solution is in the flask." class="instruction-step" />
+        <ui:Label text="2. Add phenolphthalein indicator (solution will turn pink)." class="instruction-step" />
+        <ui:Label text="3. ROUGH TRIAL: Add vinegar ~1 mL at a time until solution turns colorless." class="instruction-step" />
+        <ui:Label text="4. PRECISE TRIALS: Add vinegar drop by drop as it approaches the end point (pale pink)." class="instruction-step" />
+        <ui:Label text="5. Calculate molarity, grams in 1L, and final commercial %." class="instruction-step" />
+    </ui:VisualElement>
+</ui:UXML>

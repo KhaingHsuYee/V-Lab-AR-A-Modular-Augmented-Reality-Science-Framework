@@ -1,0 +1,104 @@
+/* Main Dashboard Setup */
+.dashboard-wrapper {
+    width: 950px; 
+    height: 500px; 
+    background-color: rgba(18, 30, 48, 0.85); 
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: rgba(120, 180, 220, 0.5); 
+    overflow: hidden;
+}
+
+.sliding-container {
+    flex-direction: row;
+    width: 1900px; 
+    height: 100%;
+    transition-property: translate;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out-cubic;
+}
+
+.page-panel {
+    width: 950px;
+    height: 100%;
+    padding: 25px 35px; /* Increased padding slightly for breathing room */
+}
+
+/* ==================================
+   TYPOGRAPHY
+   ================================== */
+.header-title {
+    font-size: 30px; /* Slightly larger */
+    -unity-font-style: bold;
+    color: rgb(150, 220, 255);
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom-width: 2px; /* Adds a clean, elegant underline to separate the title */
+    border-color: rgba(150, 220, 255, 0.2); 
+}
+
+.body-text {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.metrics-text {
+    font-size: 22px;
+    -unity-font-style: italic;
+    color: rgb(255, 220, 100);
+    margin-bottom: 15px;
+}
+
+/* ==================================
+   INSTRUCTIONS FORMATTING
+   ================================== */
+.instruction-block {
+    flex-grow: 1;
+    justify-content: flex-start; /* FIX: Stops text from spilling upward into the title! */
+    margin-top: 5px;
+    margin-bottom: 40px; /* FIX: Adds empty space at the bottom so it never hits the swipe hint */
+}
+
+.instruction-heading {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(210, 235, 255);
+    margin-top: 12px;
+    margin-bottom: 2px;
+}
+
+.instruction-text {
+    font-size: 17px; /* Scaled down slightly to fit perfectly */
+    color: rgb(230, 240, 250);
+    white-space: normal;
+    margin-left: 15px;
+}
+
+/* ==================================
+   GRAPH SYSTEM
+   ================================== */
+.graph-bg {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-width: 1px;
+    border-color: rgba(120, 180, 220, 0.3);
+    border-radius: 4px;
+    margin-bottom: 30px; /* Prevents overlap with swipe hint */
+    padding: 10px;
+}
+
+.graph-container {
+    flex-grow: 1;
+}
+
+/* ==================================
+   UTILITIES
+   ================================== */
+.swipe-hint {
+    position: absolute;
+    bottom: 20px; 
+    right: 35px; /* Aligned with the panel's right padding */
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}

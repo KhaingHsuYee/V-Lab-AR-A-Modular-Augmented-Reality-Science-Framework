@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Zirconium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Zirconium
+  symbol: Zr
+  atomicNumber: 40
+  atomicWeight: 91.2242
+  category: transition metal
+  protons: 40
+  neutrons: 51
+  electronShells: 0200000008000000120000000a00000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d2
+  electronegativity: 1.33
+  atomicRadius: 160
+  ionizationEnergy: 6.63
+  phaseAtSTP: Solid
+  density: 6.52
+  meltingPoint: 2128
+  boilingPoint: 4650
+  discoveredBy: Martin Heinrich Klaproth
+  description: "Zirconium is a chemical element with symbol Zr and atomic number
+    40. The name of zirconium is taken from the name of the mineral zircon, the most
+    important source of zirconium. The word zircon comes from the Persian word zargun
+    \u0632\u0631\u06AF\u0648\u0646, meaning \"gold-colored\"."

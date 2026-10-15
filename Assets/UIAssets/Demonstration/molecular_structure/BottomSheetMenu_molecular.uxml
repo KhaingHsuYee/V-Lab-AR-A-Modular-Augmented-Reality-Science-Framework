@@ -1,0 +1,81 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="BottomSheetStyle_molecular.uss"/>
+    
+    <!-- ========================================== -->
+    <!-- COLOR KEY LEGEND PANEL                     -->
+    <!-- ========================================== -->
+    
+    <!-- The Legend Panel (Hidden by default) -->
+    <ui:VisualElement name="legend-panel" class="legend-panel">
+        <ui:Label text="Color Key (CPK)" class="legend-title" />
+
+        <ui:VisualElement class="legend-row">
+            <ui:VisualElement class="color-dot dot-carbon" />
+            <ui:Label text="Carbon (C)" class="legend-text" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="legend-row">
+            <ui:VisualElement class="color-dot dot-hydrogen" />
+            <ui:Label text="Hydrogen (H)" class="legend-text" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="legend-row">
+            <ui:VisualElement class="color-dot dot-oxygen" />
+            <ui:Label text="Oxygen (O)" class="legend-text" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="legend-row">
+            <ui:VisualElement class="color-dot dot-nitrogen" />
+            <ui:Label text="Nitrogen (N)" class="legend-text" />
+        </ui:VisualElement>
+        
+        <ui:VisualElement class="legend-row">
+            <ui:VisualElement class="color-dot dot-sulfur" />
+            <ui:Label text="Sulfur (S)" class="legend-text" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="legend-row">
+            <ui:VisualElement class="color-dot dot-chlorine" />
+            <ui:Label text="Chlorine (Cl)" class="legend-text" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <!-- ========================================== -->
+    <!-- DYNAMIC MOLECULE INFO PANEL                -->
+    <!-- ========================================== -->
+    <ui:VisualElement name="info-panel" class="info-panel">
+        <ui:Button name="btn-close-info" text="X" class="close-btn" />
+        <ui:Label name="info-title" text="Molecule Name" class="info-title" />
+        <ui:Label name="info-formula" text="H2O" class="info-formula" />
+        <ui:Label name="info-desc" text="Molecule description goes here..." class="info-desc" />
+        <ui:Label name="info-stats" text="Molar Mass: 0 g/mol" class="info-stats" />
+    </ui:VisualElement>
+
+    <!-- ========================================== -->
+    <!-- ORIGINAL BOTTOM SHEET MENU                 -->
+    <!-- ========================================== -->
+
+    <ui:VisualElement name="bottom-sheet-wrapper" class="bottom-sheet-wrapper" picking-mode="Ignore">
+        
+        <ui:Button name="btn-toggle-menu" text="CHOOSE LAB KIT" class="pill-button" />
+
+        <ui:VisualElement name="bottom-sheet-panel" class="bottom-sheet-panel">
+            
+            <ui:VisualElement class="sheet-header">
+                <ui:Button name="btn-back" text="&#8592; Back" class="back-btn" style="display: none;" />
+                <ui:Label name="sheet-title" text="SELECT CATEGORY" class="sheet-title" />
+            </ui:VisualElement>
+
+            <ui:VisualElement name="category-view" class="view-container">
+                <ui:Button name="cat-hydrocarbons" text="Hydrocarbons" class="category-card" />
+                <ui:Button name="cat-medicine" text="Medicine Cabinet" class="category-card" />
+                <ui:Button name="cat-neuro" text="Neurotransmitters" class="category-card" />
+                <ui:Button name="cat-scents" text="Scents &amp; Flavors" class="category-card" />
+            </ui:VisualElement>
+
+            <ui:ScrollView name="item-view" class="view-container" mode="Horizontal" style="display: none;" />
+
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+</ui:UXML>

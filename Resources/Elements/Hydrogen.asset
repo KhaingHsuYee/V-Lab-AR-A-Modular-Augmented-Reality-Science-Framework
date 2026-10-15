@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Hydrogen
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Hydrogen
+  symbol: H
+  atomicNumber: 1
+  atomicWeight: 1.008
+  category: diatomic nonmetal
+  protons: 1
+  neutrons: 0
+  electronShells: 01000000
+  electronConfiguration: 1s1
+  electronegativity: 2.2
+  atomicRadius: 53
+  ionizationEnergy: 13.598
+  phaseAtSTP: Gas
+  density: 0.08988
+  meltingPoint: 13.99
+  boilingPoint: 20.271
+  discoveredBy: Henry Cavendish
+  description: Hydrogen is a chemical element with chemical symbol H and atomic number
+    1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the
+    periodic table. Its monatomic form (H) is the most abundant chemical substance
+    in the Universe, constituting roughly 75% of all baryonic mass.

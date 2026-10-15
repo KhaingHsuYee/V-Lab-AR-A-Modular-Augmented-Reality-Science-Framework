@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Yttrium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Yttrium
+  symbol: Y
+  atomicNumber: 39
+  atomicWeight: 88.905846
+  category: transition metal
+  protons: 39
+  neutrons: 50
+  electronShells: 0200000008000000120000000900000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d1
+  electronegativity: 1.22
+  atomicRadius: 180
+  ionizationEnergy: 6.22
+  phaseAtSTP: Solid
+  density: 4.472
+  meltingPoint: 1799
+  boilingPoint: 3203
+  discoveredBy: Johan Gadolin
+  description: Yttrium is a chemical element with symbol Y and atomic number 39.
+    It is a silvery-metallic transition metal chemically similar to the lanthanides
+    and it has often been classified as a "rare earth element". Yttrium is almost
+    always found combined with the lanthanides in rare earth minerals and is never
+    found in nature as a free element.

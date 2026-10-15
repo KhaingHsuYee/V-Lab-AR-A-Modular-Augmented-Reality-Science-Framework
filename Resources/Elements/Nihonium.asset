@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Nihonium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Nihonium
+  symbol: Nh
+  atomicNumber: 113
+  atomicWeight: 286
+  category: unknown, probably transition metal
+  protons: 113
+  neutrons: 173
+  electronShells: 02000000080000001200000020000000200000001200000003000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10
+    6p6 7s2 5f14 6d10 7p1
+  electronegativity: 0
+  atomicRadius: 170
+  ionizationEnergy: 7.3
+  phaseAtSTP: Solid
+  density: 16
+  meltingPoint: 0
+  boilingPoint: 0
+  discoveredBy: RIKEN
+  description: Nihonium is a chemical element with atomic number 113. It has a symbol
+    Nh. It is a synthetic element (an element that can be created in a laboratory
+    but is not found in nature) and is extremely radioactive; its most stable known
+    isotope, nihonium-286, has a half-life of 20 seconds.

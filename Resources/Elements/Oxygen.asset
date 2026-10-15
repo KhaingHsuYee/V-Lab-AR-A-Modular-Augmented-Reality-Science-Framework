@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Oxygen
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Oxygen
+  symbol: O
+  atomicNumber: 8
+  atomicWeight: 15.999
+  category: diatomic nonmetal
+  protons: 8
+  neutrons: 8
+  electronShells: 0200000006000000
+  electronConfiguration: 1s2 2s2 2p4
+  electronegativity: 3.44
+  atomicRadius: 60
+  ionizationEnergy: 13.62
+  phaseAtSTP: Gas
+  density: 0.001429
+  meltingPoint: 54.36
+  boilingPoint: 90.188
+  discoveredBy: Carl Wilhelm Scheele
+  description: Oxygen is a chemical element with symbol O and atomic number 8. It
+    is a member of the chalcogen group on the periodic table and is a highly reactive
+    nonmetal and oxidizing agent that readily forms compounds (notably oxides) with
+    most elements. By mass, oxygen is the third-most abundant element in the universe,
+    after hydrogen and helium.

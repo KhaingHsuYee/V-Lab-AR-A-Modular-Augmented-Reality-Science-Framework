@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Assets/UIAssets/ExperimentReadyStyle.uss?fileID=7433441132597879392&amp;guid=e4a642143914f854bb5e4a17b0099249&amp;type=3#ExperimentReadyStyle"/>
+    <ui:VisualElement name="screen-container" class="screen-container" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Fonts/Oswald-Light.ttf?fileID=12800000&amp;guid=cef308eb06aa34645a50e50833103afd&amp;type=3#Oswald-Light&quot;);">
+        <ui:VisualElement class="experiment-panel">
+            <ui:Label text="Experiment Ready" class="title-text" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Fonts/Oswald-SemiBold.ttf?fileID=12800000&amp;guid=489c88ed5f62eed4fae6dae652b8bf58&amp;type=3#Oswald-SemiBold&quot;);"/>
+            
+            <ui:Label name="subtitle-label" text=" Basic Radical Test" class="subtitle-text" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Fonts/Orbitron-Bold.ttf?fileID=12800000&amp;guid=2753490a7dcb76c48b0e46f29aceebef&amp;type=3#Orbitron-Bold&quot;);"/>
+
+            <ui:VisualElement class="instructions-header" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Fonts/Orbitron-Bold.ttf?fileID=12800000&amp;guid=2753490a7dcb76c48b0e46f29aceebef&amp;type=3#Orbitron-Bold&quot;);">
+                <ui:Label text="💡" class="icon-text"/>
+                <ui:Label text="Brief Instructions:" class="header-text" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Fonts/Oswald-SemiBold.ttf?fileID=12800000&amp;guid=489c88ed5f62eed4fae6dae652b8bf58&amp;type=3#Oswald-SemiBold&quot;);"/>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="instructions-list" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Fonts/Roboto_SemiCondensed-Medium.ttf?fileID=12800000&amp;guid=4028c0337d4b17e44be5b661de2a2461&amp;type=3#Roboto_SemiCondensed-Medium&quot;); word-spacing: 1px;">
+                <ui:Label name="instruction-1" text="1. Select a Reagent." class="list-item"/>
+                <ui:Label name="instruction-2" text="2. Observe color change or precipitate." class="list-item"/>
+                <ui:Label name="instruction-3" text="3. Identify the Radical." class="list-item"/>
+            </ui:VisualElement>
+            
+            <ui:VisualElement class="button-container">
+                <ui:Button text="Begin Experiment" name="begin-button" class="primary-button"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

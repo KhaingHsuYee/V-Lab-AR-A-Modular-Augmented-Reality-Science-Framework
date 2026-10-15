@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Lead
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Lead
+  symbol: Pb
+  atomicNumber: 82
+  atomicWeight: 207.21
+  category: post-transition metal
+  protons: 82
+  neutrons: 125
+  electronShells: 020000000800000012000000200000001200000004000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10
+    6p2
+  electronegativity: 1.87
+  atomicRadius: 154
+  ionizationEnergy: 7.42
+  phaseAtSTP: Solid
+  density: 11.34
+  meltingPoint: 600.61
+  boilingPoint: 2022
+  discoveredBy: Middle East
+  description: "Lead (/l\u025Bd/) is a chemical element in the carbon group with
+    symbol Pb (from Latin:plumbum) and atomic number 82. Lead is a soft, malleable
+    and heavy post-transition metal. Metallic lead has a bluish-white color after
+    being freshly cut, but it soon tarnishes to a dull grayish color when exposed
+    to air."

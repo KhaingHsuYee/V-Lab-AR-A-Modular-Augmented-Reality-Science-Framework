@@ -1,0 +1,140 @@
+.results-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    justify-content: center;
+    align-items: center;
+}
+
+.results-box {
+    width: 550px;
+    background-color: rgba(20, 25, 35, 0.95);
+    border-radius: 16px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    align-items: stretch;
+}
+
+.results-title {
+    color: #93c5fd;
+    font-size: 24px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-bottom: 10px;
+}
+
+.results-message {
+    color: #e2e8f0;
+    font-size: 14px;
+    -unity-text-align: middle-center;
+    margin-bottom: 15px;
+    white-space: normal;
+}
+
+.input-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-label {
+    color: #e2e8f0;
+    font-size: 16px;
+}
+
+/* 1. This sizes the outer wrapper */
+.input-field {
+    width: 120px;
+    font-size: 16px;
+}
+
+/* 2. This targets the actual typing box inside the TextField */
+.input-field > .unity-text-field__input {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background */
+    color: rgb(255, 255, 255);            /* White text */
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.3);
+    -unity-text-align: middle-center;
+    padding: 5px;
+}
+
+.action-btn {
+    background-color: rgba(147, 197, 253, 0.2);
+    color: #93c5fd;
+    border-radius: 8px;
+    border-color: #93c5fd;
+    border-width: 1px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -unity-font-style: bold;
+}
+
+.highlight-text {
+    color: #86efac;
+    font-size: 18px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-bottom: 15px;
+}
+
+.divider {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 15px;
+}
+
+.feedback-text {
+    font-size: 16px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-bottom: 15px;
+}
+
+.button-container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.popup-btn {
+    width: 47%;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 15px;
+    -unity-font-style: bold;
+}
+
+.popup-btn-secondary {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #e2e8f0;
+}
+
+.popup-btn-primary {
+    background-color: rgba(147, 197, 253, 0.15);
+    border-color: #93c5fd;
+    color: #93c5fd;
+}
+
+/* --- NEW: RESET BURETTE BUTTON --- */
+.reset-burette-btn {
+    margin-top: 15px;
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-width: 1px;
+    border-radius: 8px;
+    color: #e2e8f0;
+    font-size: 12px;
+    -unity-font-style: bold;
+    padding: 8px 10px;
+    width: 100%;
+    transition-duration: 0.15s;
+}
+
+.reset-burette-btn:active {
+    background-color: rgba(255, 255, 255, 0.1);
+    scale: 0.95 0.95;
+}

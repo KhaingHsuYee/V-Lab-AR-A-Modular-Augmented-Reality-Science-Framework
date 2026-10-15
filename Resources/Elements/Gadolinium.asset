@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3655c5449c00f42845daf1835b8de4, type: 3}
+  m_Name: Gadolinium
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData_Periodic
+  elementName: Gadolinium
+  symbol: Gd
+  atomicNumber: 64
+  atomicWeight: 157.253
+  category: lanthanide
+  protons: 64
+  neutrons: 93
+  electronShells: 020000000800000012000000190000000900000002000000
+  electronConfiguration: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f7 5d1
+  electronegativity: 1.2
+  atomicRadius: 180
+  ionizationEnergy: 6.15
+  phaseAtSTP: Solid
+  density: 7.9
+  meltingPoint: 1585
+  boilingPoint: 3273
+  discoveredBy: Jean Charles Galissard de Marignac
+  description: Gadolinium is a chemical element with symbol Gd and atomic number
+    64. It is a silvery-white, malleable and ductile rare-earth metal. It is found
+    in nature only in combined (salt) form.
